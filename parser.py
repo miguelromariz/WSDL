@@ -20,7 +20,7 @@ for line in data:
             print(count)
             #print("ID: " + movieId + ", Title: " + movieTitle + ", Type: " + movieType + ", Date: " + movieDate)
             data2[movieTitle] = movieDate
-            with open('data2.json', 'w') as outfile:
+            with open('movieTitles.json', 'w') as outfile:
                 json.dump(data2, outfile, indent=2)
     
     firstline = False
