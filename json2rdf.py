@@ -15,7 +15,7 @@ def init_movie(movie_name, date):
     redux = "".join(list(filter(lambda c: str.isalnum(c) or c == ' ', string.capwords(movie_name).replace(" ", ""))))
     comm = movie_name.replace("&", "and")
 
-    file1 = open("MyFile.owl","a")
+    file1 = open("moviesRdfs.owl","a")
     
 
     rdf = f"""<!-- http://www.ime.usp.br/~renata/FOAF-modified#{redux} -->
@@ -128,7 +128,7 @@ def print_t(t):
             print(t[k])
             print("")
 def main():
-    t = prepare_movie_rdf("data2.json")
+    t = prepare_movie_rdf("movieTitles.json")
     print_t(t)
 
 if __name__ == '__main__':
