@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#"
+     xml:base="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#category -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#category">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Award"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#character_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#character_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Cast"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#comment_text -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#comment_text">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Comment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#comment_title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#comment_title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Comment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#country -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#country">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Resource"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#episode_duration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#episode_duration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#TvShow"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#genre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#genre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Resource"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#imdb_score -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#imdb_score">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Score"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#language -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#language">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Resource"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#metacritic_score -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#metacritic_score">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Score"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#nr_episodes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#nr_episodes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#TvShow"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#nr_seasons -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#nr_seasons">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#TvShow"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#person_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#person_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Person"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#recommended_age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#recommended_age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Resource"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#release_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#release_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Resource"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#role -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#role">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Staff"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#rottentotomatoes_score -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#rottentotomatoes_score">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Score"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#synopsis -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#synopsis">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Resource"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Resource"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#total_duration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#total_duration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Resource"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#winner_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#winner_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Award"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Award -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Award"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Cast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Cast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Comment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Comment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Resource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Resource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Score -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Score"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Staff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Staff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#TvShow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#TvShow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anateresa/ontologies/2021/11/untitled-ontology-12#Resource"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
