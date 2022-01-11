@@ -429,6 +429,110 @@
     <owl:Class rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Resource"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+                                <!-- EXAMPLES OF RDFS TO ADD -->
+
+                                
+    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1 -->
+
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Cast"/>
+        <participates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample"/>
+        <character_name>John</character_name>
+        <person_name>Ian</person_name>
+    </owl:NamedIndividual>
+     -->
+
+
+    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1 -->
+
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award"/>
+        <distinguish rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample"/>
+        <category>Best movie</category>
+        <winner_name>Resource Example</winner_name>
+    </owl:NamedIndividual>
+    
+ -->
+
+    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1 -->
+<!-- 
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment"/>
+        <belongs rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample"/>
+        <comment_text>Very nice show</comment_text>
+        <comment_title>Good comment</comment_title>
+    </owl:NamedIndividual> -->
+    
+
+
+    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2 -->
+
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment"/>
+        <belongs rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample"/>
+        <comment_text>Worst show ever</comment_text>
+        <comment_title>Bad comment</comment_title>
+    </owl:NamedIndividual> -->
+    
+
+
+    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample -->
+
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
+        <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
+        <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
+        <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
+        <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
+        <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+        <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+        <country>Spain</country>
+        <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</episode_duration>
+        <genre>Comedy</genre>
+        <language>EN</language>
+        <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</nr_episodes>
+        <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</nr_seasons>
+        <recommended_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</recommended_age>
+        <release_date>21-05-2002</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>Example Resource</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</total_duration>
+    </owl:NamedIndividual> -->
+    
+
+
+    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score -->
+
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+        <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample"/>
+        <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</imdb_score>
+        <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</metacritic_score>
+        <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.2</rottentotomatoes_score>
+    </owl:NamedIndividual> -->
+    
+
+
+    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1 -->
+
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1">
+        <collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample"/>
+        <person_name>Sarah</person_name>
+        <role>Producer</role>
+    </owl:NamedIndividual>  -->
 </rdf:RDF>
 
 
