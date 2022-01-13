@@ -6,33 +6,64 @@ import json
 def createMoviesJson():
     movies = {}
     count = 0
-    file = open("filteredMovies.tsv", encoding="utf8")
+    file = open("moviesFiltered.tsv", encoding="utf8")
     data = csv.reader(file, delimiter="\t")
     firstline = True
 
     for line in data:
         if(not firstline):
-            movieId = line[0]
-            movieType = line[1]
-            movieTitle = line[3]
-            movieDate = line[5]
-            movieDuration = line[7]
-            movieGenres = line[8]
-
-            if((movieType == "movie" or movieType == "tvSeries") and movieDate != "\\N" and int(movieDate) > 2000):
-                count+=1
-                print(count)
-                movies[movieTitle] = [movieId, movieDate, movieType, movieDuration, movieGenres]
+            movieIRI = line[0]
+            movieTitle = line[1]
+            movieDirector = line[2]
+            movieAbstract = line[3]
+            movieCountry = line[4]
+            movieLanguage = line[5]
+            movieReleaseDate = line[6]
+            movieRunTime = line[7]
+            if movieRunTime != "":
+                movieRunTime = str(float(movieRunTime)/60)
+            type = "movie"
+            movies[movieTitle] = [movieIRI, movieDirector, movieAbstract, movieCountry, movieLanguage, movieReleaseDate, movieRunTime, type]
 
         firstline = False
     
-    with open('jsons\movieTitles.json', 'w') as outfile:
+    with open('jsons\movies.json', 'w', encoding="utf8") as outfile:
+        json.dump(movies, outfile, ensure_ascii=False, indent=2)
+
+def createSeriesJson():
+    movies = {}
+    count = 0
+    file = open("seriesFiltered.tsv", encoding="utf8")
+    data = csv.reader(file, delimiter="\t")
+    firstline = True
+
+    for line in data:
+        if(not firstline):
+            seriesIRI = line[0]
+            seriesTitle = line[1]
+            seriesAbstract = line[2]
+            seriesLanguage = line[3]
+            seriesRelease = line[4]
+            seriesCompletion = line[5]
+            seriesProducer = line[6]
+            seriesExecutiveProducer = line[7]
+            seriesEpisodes = line[8]
+            seriesSeasons = line[9]
+            seriesEpisodeDuration = line[10]
+            if seriesEpisodeDuration != "":
+                seriesEpisodeDuration = str(abs(float(seriesEpisodeDuration))/60)            
+            type = "TVSeries"
+            movies[seriesTitle] = [seriesIRI, seriesAbstract, seriesLanguage, seriesRelease, seriesCompletion, seriesProducer, seriesExecutiveProducer, seriesEpisodes, seriesSeasons, seriesEpisodeDuration, type]
+
+        firstline = False
+    
+    with open('jsons\series.json', 'w', encoding="utf8") as outfile:
         json.dump(movies, outfile, ensure_ascii=False, indent=2)
 
 def filterMovies():
-    file = open("movies.tsv", encoding="utf8")
+    file = open("series.tsv", encoding="utf8")
     data = csv.reader(file, delimiter="\t")
-    file2 = open('test.tsv', 'a+', encoding="utf8", newline='')
+    file2 = open('seriesFiltered.tsv', 'a+', encoding="utf8", newline='')
     writer = csv.writer(file2, delimiter='\t')
     count = 0
     titulos = []
@@ -48,24 +79,14 @@ def filterMovies():
 
 
 def main():
-    filterMovies()
+    #filterMovies()
     #createMoviesJson()
-    #filterTitles()
+    createSeriesJson()    
     
     
 
 if __name__ == '__main__':
     main()
-
-'''ia = imdb.IMDb()
-movie = ia.get_movie(movieId)
-
-if 'plot' in movie.keys():
-movies[movieTitle].append(movie['plot'][0])
-else: movies[movieTitle].append('\\N')
-
-movies[movieTitle].append(movie['country'][0]) '''
-
 
 
 
