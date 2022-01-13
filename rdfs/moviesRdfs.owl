@@ -1,70 +1,160 @@
-<!-- http://www.ime.usp.br/~renata/FOAF-modified#Bohemios -->
-    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/~renata/FOAF-modified#Bohemios">
-        <rdf:type rdf:resource="http://www.ime.usp.br/~renata/FOAF-modifiedMovie"/>
-        <renata:FOAF-modifiedlaunchDate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1905</renata:FOAF-modifiedlaunchDate>
-        <renata:FOAF-modifiedtitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bohemios</renata:FOAF-modifiedtitle>
-        <rdfs:label>Bohemios</rdfs:label>
-    </owl:NamedIndividual>
-<!-- http://www.ime.usp.br/~renata/FOAF-modified#TheStoryOfTheKellyGang -->
-    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/~renata/FOAF-modified#TheStoryOfTheKellyGang">
-        <rdf:type rdf:resource="http://www.ime.usp.br/~renata/FOAF-modifiedMovie"/>
-        <renata:FOAF-modifiedlaunchDate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1906</renata:FOAF-modifiedlaunchDate>
-        <renata:FOAF-modifiedtitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Story of the Kelly Gang</renata:FOAF-modifiedtitle>
-        <rdfs:label>The Story of the Kelly Gang</rdfs:label>
-    </owl:NamedIndividual>
-<!-- http://www.ime.usp.br/~renata/FOAF-modified#LenfantProdigue -->
-    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/~renata/FOAF-modified#LenfantProdigue">
-        <rdf:type rdf:resource="http://www.ime.usp.br/~renata/FOAF-modifiedMovie"/>
-        <renata:FOAF-modifiedlaunchDate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1907</renata:FOAF-modifiedlaunchDate>
-        <renata:FOAF-modifiedtitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L'enfant prodigue</renata:FOAF-modifiedtitle>
-        <rdfs:label>L'enfant prodigue</rdfs:label>
-    </owl:NamedIndividual>
-<!-- http://www.ime.usp.br/~renata/FOAF-modified#RobberyUnderArms -->
-    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/~renata/FOAF-modified#RobberyUnderArms">
-        <rdf:type rdf:resource="http://www.ime.usp.br/~renata/FOAF-modifiedMovie"/>
-        <renata:FOAF-modifiedlaunchDate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1907</renata:FOAF-modifiedlaunchDate>
-        <renata:FOAF-modifiedtitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robbery Under Arms</renata:FOAF-modifiedtitle>
-        <rdfs:label>Robbery Under Arms</rdfs:label>
-    </owl:NamedIndividual>
-<!-- http://www.ime.usp.br/~renata/FOAF-modified#Amleto -->
-    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/~renata/FOAF-modified#Amleto">
-        <rdf:type rdf:resource="http://www.ime.usp.br/~renata/FOAF-modifiedMovie"/>
-        <renata:FOAF-modifiedlaunchDate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1908</renata:FOAF-modifiedlaunchDate>
-        <renata:FOAF-modifiedtitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amleto</renata:FOAF-modifiedtitle>
-        <rdfs:label>Amleto</rdfs:label>
-    </owl:NamedIndividual>
-<!-- http://www.ime.usp.br/~renata/FOAF-modified#DonQuijote -->
-    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/~renata/FOAF-modified#DonQuijote">
-        <rdf:type rdf:resource="http://www.ime.usp.br/~renata/FOAF-modifiedMovie"/>
-        <renata:FOAF-modifiedlaunchDate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1908</renata:FOAF-modifiedlaunchDate>
-        <renata:FOAF-modifiedtitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Don Quijote</renata:FOAF-modifiedtitle>
-        <rdfs:label>Don Quijote</rdfs:label>
-    </owl:NamedIndividual>
-<!-- http://www.ime.usp.br/~renata/FOAF-modified#TheFairylogueAndRadioplays -->
-    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/~renata/FOAF-modified#TheFairylogueAndRadioplays">
-        <rdf:type rdf:resource="http://www.ime.usp.br/~renata/FOAF-modifiedMovie"/>
-        <renata:FOAF-modifiedlaunchDate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1908</renata:FOAF-modifiedlaunchDate>
-        <renata:FOAF-modifiedtitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Fairylogue and Radio-Plays</renata:FOAF-modifiedtitle>
-        <rdfs:label>The Fairylogue and Radio-Plays</rdfs:label>
-    </owl:NamedIndividual>
-<!-- http://www.ime.usp.br/~renata/FOAF-modified#ElPastorcitoDeTorrente -->
-    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/~renata/FOAF-modified#ElPastorcitoDeTorrente">
-        <rdf:type rdf:resource="http://www.ime.usp.br/~renata/FOAF-modifiedMovie"/>
-        <renata:FOAF-modifiedlaunchDate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1908</renata:FOAF-modifiedlaunchDate>
-        <renata:FOAF-modifiedtitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El pastorcito de Torrente</renata:FOAF-modifiedtitle>
-        <rdfs:label>El pastorcito de Torrente</rdfs:label>
-    </owl:NamedIndividual>
-<!-- http://www.ime.usp.br/~renata/FOAF-modified#AndreasHofer -->
-    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/~renata/FOAF-modified#AndreasHofer">
-        <rdf:type rdf:resource="http://www.ime.usp.br/~renata/FOAF-modifiedMovie"/>
-        <renata:FOAF-modifiedlaunchDate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1909</renata:FOAF-modifiedlaunchDate>
-        <renata:FOAF-modifiedtitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andreas Hofer</renata:FOAF-modifiedtitle>
-        <rdfs:label>Andreas Hofer</rdfs:label>
-    </owl:NamedIndividual>
-<!-- http://www.ime.usp.br/~renata/FOAF-modified#LaBocanaDeMarChica -->
-    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/~renata/FOAF-modified#LaBocanaDeMarChica">
-        <rdf:type rdf:resource="http://www.ime.usp.br/~renata/FOAF-modifiedMovie"/>
-        <renata:FOAF-modifiedlaunchDate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1909</renata:FOAF-modifiedlaunchDate>
-        <renata:FOAF-modifiedtitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La bocana de Mar Chica</renata:FOAF-modifiedtitle>
-        <rdfs:label>La bocana de Mar Chica</rdfs:label>
-    </owl:NamedIndividual>
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LaFêteEspagnole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>Drama</genre>
+        <release_date>2019</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>La fête espagnole</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TötetNichtMehr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>ActionCrime</genre>
+        <release_date>2019</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>Tötet nicht mehr</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">\N</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Frivolinas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>ComedyMusical</genre>
+        <release_date>2014</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>Frivolinas</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KateLeopold">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>ComedyFantasyRomance</genre>
+        <release_date>2001</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>Kate and Leopold</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MuhomatsuNoIssho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>ActionAdventure</genre>
+        <release_date>2008</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>Muhomatsu no issho</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ElTangoDelViudoYSuEspejoDeformante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>Drama</genre>
+        <release_date>2020</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>El Tango del Viudo y Su Espejo Deformante</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmintiriBucurestene">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>Documentary</genre>
+        <release_date>2020</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>Amintiri bucurestene</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">\N</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheOtherSideOfTheWind">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>Drama</genre>
+        <release_date>2018</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>The Other Side of the Wind</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#November1828">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>DramaWar</genre>
+        <release_date>2001</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>November 1828</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ShaOu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>DramaSport</genre>
+        <release_date>2019</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>Sha Ou</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">\N</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#QuanJiaFu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>ComedyDrama</genre>
+        <release_date>2017</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>Quan jia fu</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheNakedMonster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>ComedyHorrorSci-Fi</genre>
+        <release_date>2005</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>The Naked Monster</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ElDíaDeLosAlbañiles2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>Comedy</genre>
+        <release_date>2001</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>El día de los albañiles 2</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EnTresYDos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>Drama</genre>
+        <release_date>2004</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>En tres y dos</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GrizzlyIiThePredator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>HorrorMusicThriller</genre>
+        <release_date>2020</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>Grizzly II: The Predator</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CrimeAndPunishment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#tvSeries"/>
+        <genre>History</genre>
+        <release_date>2008</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>Crime and Punishment</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Responso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>\N</genre>
+        <release_date>2004</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>Responso</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LaTelenovelaErrante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>ComedyDramaFantasy</genre>
+        <release_date>2017</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>La telenovela errante</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#NeuesInWittstock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>Documentary</genre>
+        <release_date>2021</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>Neues in Wittstock</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</total_duration>
+    </owl:NamedIndividual> -->
+<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WestFromNorthGoesSouth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#movie"/>
+        <genre>ComedyMystery</genre>
+        <release_date>2004</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>West from North Goes South</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</total_duration>
+    </owl:NamedIndividual> -->

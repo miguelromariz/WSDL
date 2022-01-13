@@ -1,0 +1,28 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?film ?film_title ?film_director ?film_abstract ?film_country ?film_language ?film_releaseDate ?film_runtime
+WHERE {
+?film rdf:type <http://dbpedia.org/ontology/Film>.
+?film dbp:name ?film_title.
+?film dbo:director ?film_director.
+?film  rdfs:comment ?film_abstract.
+Optional{ ?film dbp:language ?film_language.}
+Optional{?film dbp:release_Date ?film_releaseDate.}
+Optional{?film dbp:country ?film_country. }
+Optional{?film dbo:runtime ?film_runtime.}
+
+Filter(?film_director = <http://dbpedia.org/resource/Quentin_Tarantino> ||
+ ?film_director = <http://dbpedia.org/resource/Steven_Spielberg> ||
+ ?film_director = <http://dbpedia.org/resource/James_Cameron> ||
+ ?film_director = <http://dbpedia.org/resource/Spike_Lee> ||
+ ?film_director = <http://dbpedia.org/resource/Tim_Burton> ).
+Filter(langMatches(lang(?film_abstract), "EN"))
+} GROUP BY ?film
+
+
+
+
+
+
+ 
+

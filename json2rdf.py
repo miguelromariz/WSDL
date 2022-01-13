@@ -11,20 +11,22 @@ allowed_movies = False
 def redux_movie(m):
     return "".join(list(filter(lambda c: str.isalnum(c) or c == ' ', string.capwords(m).replace(" ", ""))))
 
-def init_movie(movie_name, date):
+def init_movie(movie_name, date, type, duration, genre):
     redux = "".join(list(filter(lambda c: str.isalnum(c) or c == ' ', string.capwords(movie_name).replace(" ", ""))))
     comm = movie_name.replace("&", "and")
+    genre2 = genre.replace(",", "")
 
     file1 = open("rdfs\moviesRdfs.owl","a")
     
 
-    rdf = f"""<!-- http://www.ime.usp.br/~renata/FOAF-modified#{redux} -->
-    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/~renata/FOAF-modified#{redux}">
-        <rdf:type rdf:resource="http://www.ime.usp.br/~renata/FOAF-modifiedMovie"/>
-        <renata:FOAF-modifiedlaunchDate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">{date}</renata:FOAF-modifiedlaunchDate>
-        <renata:FOAF-modifiedtitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{comm}</renata:FOAF-modifiedtitle>
-        <rdfs:label>{comm}</rdfs:label>
-    </owl:NamedIndividual>"""
+    rdf = f"""<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{redux}">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{type}"/>
+        <genre>{genre2}</genre>
+        <release_date>{date}</release_date>
+        <synopsis>Very cool resource</synopsis>
+        <title>{comm}</title>
+        <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{duration}</total_duration>
+    </owl:NamedIndividual> -->"""
 
     file1.write(rdf)
     file1.write("\n")
@@ -103,14 +105,15 @@ def prepare_dir_rdf(file):
 
 def prepare_movie_rdf(file):
     movie_rdf = {}
+    count = 0
     with open(file, "r") as f:
         d = json.loads(f.read())
         for mov in d.keys():
-            if d[mov].isnumeric():
-                if not allowed_movies:
-                    movie_rdf[mov] = init_movie(mov, int(d[mov]))
-                elif mov in allowed_movies:
-                    movie_rdf[mov] = init_movie(mov, int(d[mov]))
+            if(count != 20):
+                movie_rdf[mov] = init_movie(mov, int(d[mov][1]), d[mov][2], d[mov][3], d[mov][4])
+            else: break
+            count+=1
+            
     return movie_rdf
 
 def prepare_act_rdf(file):
