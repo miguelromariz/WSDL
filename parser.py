@@ -22,7 +22,7 @@ def createMoviesJson():
             movieRunTime = line[7]
             if movieRunTime != "":
                 movieRunTime = str(float(movieRunTime)/60)
-            type = "movie"
+            type = "Movie"
             movies[movieTitle] = [movieIRI, movieDirector, movieAbstract, movieCountry, movieLanguage, movieReleaseDate, movieRunTime, type]
 
         firstline = False
@@ -80,8 +80,8 @@ def filterMovies():
 
 def main():
     #filterMovies()
-    #createMoviesJson()
-    createSeriesJson()    
+    createMoviesJson()
+    #createSeriesJson()    
     
     
 

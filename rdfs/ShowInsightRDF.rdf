@@ -491,7 +491,7 @@
 
     <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample -->
 
-<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample">
+<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample">
         <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
         <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
         <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
