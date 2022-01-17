@@ -23,7 +23,7 @@ Filter(langMatches(lang(?film_abstract), "EN"))
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?tvshow ?tvshow_title ?tvshow_abstract ?tvshow_language ?tvshow_release ?tvshow_completion ?tvshow_producer ?tvshow_executiveProducer ?tvshow_nrEpisodes ?tvshow_nrSeasons ?tvshow_episodeDuration
+SELECT DISTINCT ?tvshow ?tvshow_title ?tvshow_abstract ?tvshow_language ?tvshow_release ?tvshow_completion ?tvshow_producer ?tvshow_executiveProducer ?tvshow_nrEpisodes ?tvshow_nrSeasons ?tvshow_episodeDuration ?tvshow_country ?tvshow_genre 
 WHERE {
 ?tvshow rdf:type <http://dbpedia.org/ontology/TelevisionShow>.
 ?tvshow dbp:name ?tvshow_title .
@@ -36,9 +36,12 @@ WHERE {
 Optional{ ?tvshow dbp:language ?tvshow_language.}
 Optional{?tvshow dbp:release_Date ?tvshow_release .}
 Optional{?tvshow dbo:completionDate ?tvshow_completion.}
+Optional{?tvshow dbp:country ?tvshow_country. }
+Optional{?tvshow dbp:genre ?tvshow_genre .}
 
 Filter(langMatches(lang(?tvshow_abstract), "EN"))
 } LIMIT 1000
+
 
 
 

@@ -37,7 +37,7 @@ def createMovieRDF(movieTitle, movieIRI, movieDirector, movieAbstract, movieCoun
 
     return rdf
 
-def createSeriesRDF(seriesTitle, seriesIRI, seriesAbstract, seriesLanguage, seriesRelease, seriesCompletion, seriesProducer, seriesExecutiveProducer, seriesEpisodes, seriesSeasons, seriesEpisodeDuration, type):
+def createSeriesRDF(seriesTitle, seriesIRI, seriesAbstract, seriesLanguage, seriesRelease, seriesCompletion, seriesProducer, seriesExecutiveProducer, seriesEpisodes, seriesSeasons, seriesEpisodeDuration,seriesCountry, seriesGenre, type):
     titleNoSpaces = "".join(list(filter(lambda c: str.isalnum(c) or c == ' ', string.capwords(seriesTitle).replace(" ", ""))))
     title = seriesTitle.replace("&", "and")
 
@@ -46,6 +46,8 @@ def createSeriesRDF(seriesTitle, seriesIRI, seriesAbstract, seriesLanguage, seri
     if( seriesCompletion == "" ): seriesCompletion = "Unknown"
     if( seriesProducer == "" ): seriesProducer = "Unknown"
     if( seriesExecutiveProducer == "" ): seriesExecutiveProducer = "Unknown"
+    if( seriesCountry == ""): seriesCountry="Unknown"
+    if( seriesGenre == ""): seriesGenre = "Unknown"
 
     totalDuration = int(seriesEpisodes) * float(seriesEpisodeDuration)
 
@@ -60,8 +62,10 @@ def createSeriesRDF(seriesTitle, seriesIRI, seriesAbstract, seriesLanguage, seri
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>{seriesCountry}</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{seriesEpisodeDuration}</episode_duration>
                 <language>{seriesLanguage}</language>
+                <genre>{seriesGenre}</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{seriesEpisodes}</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{seriesSeasons}</nr_seasons>
                 <release_date>{seriesRelease}</release_date>
@@ -111,9 +115,11 @@ def prepare_series_rdf(file):
             seriesEpisodes = series[seriesTitle][7]
             seriesSeasons = series[seriesTitle][8]
             seriesEpisodeDuration = series[seriesTitle][9]
-            type = series[seriesTitle][10]
+            seriesCountry = series[seriesTitle] [10]
+            seriesGenre = series[seriesTitle] [11]
+            type = series[seriesTitle][12]
             
-            movie_rdf[seriesTitle] = createSeriesRDF(seriesTitle, seriesIRI, seriesAbstract, seriesLanguage, seriesRelease, seriesCompletion, seriesProducer, seriesExecutiveProducer, seriesEpisodes, seriesSeasons, seriesEpisodeDuration, type)
+            movie_rdf[seriesTitle] = createSeriesRDF(seriesTitle, seriesIRI, seriesAbstract, seriesLanguage, seriesRelease, seriesCompletion, seriesProducer, seriesExecutiveProducer, seriesEpisodes, seriesSeasons, seriesEpisodeDuration, seriesCountry, seriesGenre, type)
             
     return movie_rdf
 
