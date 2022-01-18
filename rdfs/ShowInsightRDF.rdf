@@ -53,27 +53,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#distinguish -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#distinguish">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#hasAwards"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Resource"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#hasAwards -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#hasAwards">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Resource"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#hasCast -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#hasCast">
@@ -136,13 +115,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#category -->
+    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#awards -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#category">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#awards">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Resource"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:comment>Award category.</rdfs:comment>
-        <rdfs:label>category</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -356,17 +333,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#winner_name -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#winner_name">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:comment>Name of the winner of an award.</rdfs:comment>
-        <rdfs:label>winner_name</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -375,12 +341,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award"/>
     
 
 
@@ -429,10 +389,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Resource"/>
     </owl:Class>
-    
 
-
-    <!-- 
+<!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -455,17 +413,6 @@
     </owl:NamedIndividual>
      -->
 
-
-    <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1 -->
-
-<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award"/>
-        <distinguish rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample"/>
-        <category>Best movie</category>
-        <winner_name>Resource Example</winner_name>
-    </owl:NamedIndividual>
-    
- -->
 
     <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1 -->
 <!-- 
@@ -493,7 +440,6 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample">
         <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-        <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
         <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
         <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
         <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
@@ -503,6 +449,7 @@
         <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</episode_duration>
         <genre>Comedy</genre>
         <language>EN</language>
+        <awards> 1 </awards>
         <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</nr_episodes>
         <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</nr_seasons>
         <recommended_age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</recommended_age>

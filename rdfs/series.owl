@@ -1,10 +1,8 @@
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeetJayengeHum">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeetJayengeHumScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>India</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.0</episode_duration>
@@ -16,6 +14,9 @@
                 <synopsis>Jeet Jayenge Hum is an Indian television drama series airs on Sony Entertainment Television, which premiered on 14 December 2009. The series focuses on the concept of child labor, and is produced by joint venture of Aniruddh Pathak and Sanjay Kohli.</synopsis>
                 <title>Jeet Jayenge Hum</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3952.0</total_duration>
+                <awards> N/A </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SanaSheikh"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#NawazuddinSiddiqui"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeetJayengeHumScore">
@@ -28,11 +29,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTonga">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTongaScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>Australia</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27.0</episode_duration>
@@ -44,6 +43,10 @@
                 <synopsis>Jonah from Tonga is an Australian television sitcom that is written by and starring comedian Chris Lilley. The mockumentary series follows Jonah Takalua, a rebellious 14-year-old Australian boy of Tongan descent who had been introduced in Lilley's 2007 series Summer Heights High. At the conclusion of that series, Jonah was expelled from Summer Heights High School. In this series, his father, Rocky Takalua, has sent him back to his homeland of Tonga to live with his uncle and their family in order to get Jonah's life back on track. The six-part series was produced by Princess Pictures and Chris Lilley in conjunction with the Australian Broadcasting Corporation, and screened on ABC1 in Australia, HBO in America, and BBC Three in the UK. In New Zealand Māori Television screened the first epis</synopsis>
                 <title>Jonah from Tonga</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162.0</total_duration>
+                <awards> 1 nomination </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ChrisLilley"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TamaTauali'i"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JasonMoleli"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTongaScore">
@@ -56,11 +59,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrix">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrixScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>United_States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
@@ -72,23 +73,25 @@
                 <synopsis>Ozzy & Drix is an American animated television series based on the 2001 film Osmosis Jones. It centers on Osmosis "Ozzy" Jones, a street-smart white blood cell, and Drix, a stoic cold pill, who battle germs and viruses inside the body of teenage boy Hector Cruz. The series is set in a stylized version of the human body, which resembles a city where microorganisms and cells are anthropomorphic. Produced by Conundrum Entertainment and Warner Bros. Animation, the series aired on Kids' WB for two seasons and 26 episodes from 2002 to 2004. It also aired on Cartoon Network from 2004 to 2006.</synopsis>
                 <title>Ozzy and Drix</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">572.0</total_duration>
+                <awards> 4 nominations </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeffBennett"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PhilLaMarr"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AlannaUbach"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrixScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrix"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.3</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.9</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreation">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreationScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42.0</episode_duration>
@@ -100,6 +103,10 @@
                 <synopsis>Parks and Recreation (also known as Parks and Rec) is an American political satire mockumentary sitcom television series created by Greg Daniels and Michael Schur. The series aired on NBC from April 9, 2009, to February 24, 2015, for 125 episodes, over seven seasons. A special reunion episode aired on April 30, 2020. The series stars Amy Poehler as Leslie Knope, a perky, mid-level bureaucrat in the Parks Department of Pawnee, a fictional town in Indiana. The ensemble and supporting cast features Rashida Jones as Ann Perkins, Paul Schneider as Mark Brendanawicz, Aziz Ansari as Tom Haverford, Nick Offerman as Ron Swanson, Aubrey Plaza as April Ludgate, Chris Pratt as Andy Dwyer, Adam Scott as Ben Wyatt, Rob Lowe as Chris Traeger, Jim O'Heir as Garry "Jerry" Gergich, Retta as Donna Meagle, an</synopsis>
                 <title>Parks and Recreation</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5292.0</total_duration>
+                <awards> Nominated for 14 Primetime Emmys. 25 wins & 152 nominations total </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmyPoehler"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JimO'Heir"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#NickOfferman"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreationScore">
@@ -112,11 +119,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoad">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoadScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>Australia</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55.0</episode_duration>
@@ -128,6 +133,10 @@
                 <synopsis>Serangoon Road is an Australian-Singaporean television drama series which premiered on 22 September 2013 on the Australian Broadcasting Corporation (ABC) and HBO Asia. It is a detective noir drama set in the 1960s, revolving around Serangoon Road in Singapore. The 10-part series is a collaboration between ABC and HBO Asia and was filmed largely in Singapore. It was created by Paul D. Barron and directed by Peter Andrikidis and Tony Tilse. The final episode of the series aired on 29 November 2013. Though the series received encouraging ratings, HBO has no plans for a second season.</synopsis>
                 <title>Serangoon Road</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">550.0</total_duration>
+                <awards> 1 win & 5 nominations </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DonHany"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JoanChen"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MaeveDermody"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoadScore">
@@ -140,11 +149,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriors">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriorsScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23.0</episode_duration>
@@ -156,6 +163,10 @@
                 <synopsis>Skeleton Warriors is a 13-episode cartoon series created by Landmark Entertainment Group, which originally aired in 1994 on CBS. The show was created by producer Gary Goddard.</synopsis>
                 <title>Skeleton Warriors</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">299.0</total_duration>
+                <awards> N/A </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeffBennett"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#NathanCarlson"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PhilipL.Clarke"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriorsScore">
@@ -168,11 +179,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheNewScoobyAndScrappydooShowTheNewScoobydooMysteries">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheNewScoobyAndScrappydooShowTheNewScoobydooMysteriesScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
@@ -184,7 +193,7 @@
                 <synopsis>The New Scooby and Scrappy-Doo Show is the sixth incarnation of the Hanna-Barbera Saturday morning cartoon Scooby-Doo. It premiered on September 10, 1983, and ran for one season on ABC as a half-hour program made up of two eleven-minute short cartoons. In 1984, the name of the show was changed to The New Scooby-Doo Mysteries, with the actual show format remaining the same. However, for season 2, Fred and Velma returned to the show after a four year absence. The New Scooby-Doo Mysteries ran for another season on ABC.</synopsis>
                 <title>The New Scooby and Scrappy-Doo Show  / The New Scooby-Doo Mysteries</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">572.0</total_duration>
-            </owl:NamedIndividual> -->
+                <awards>  </awards>            </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheNewScoobyAndScrappydooShowTheNewScoobydooMysteriesScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
@@ -196,11 +205,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFile">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFileScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>USA</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
@@ -212,6 +219,10 @@
                 <synopsis>The Walter Winchell File is the title of a television crime drama series that initially aired from 1957 to 1958, dramatizing cases from the New York City Police Department that were covered in the New York Daily Mirror. The series featured columnist and announcer Walter Winchell, John Larch, George Cisar, Robert Anderson, Robert Brubaker, Dolores Donlon, and Gene Barry, a year before he was cast in the lead of NBC's Bat Masterson.</synopsis>
                 <title>The Walter Winchell File</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1170.0</total_duration>
+                <awards> N/A </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WalterWinchell"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JohnLarch"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GeorgeCisar"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFileScore">
@@ -224,11 +235,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTeddyRuxpin">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTeddyRuxpinScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>Canada</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
@@ -240,6 +249,10 @@
                 <synopsis>The Adventures of Teddy Ruxpin is an American/Canadian animated television series based on Teddy Ruxpin, an animatronic teddy bear created by Ken Forsse and distributed by toy manufacturer Worlds of Wonder. It was produced for television syndication by DIC Enterprises with Atkinson Film-Arts using many of the same voice actors used in the book-and-tape series that was made for the eponymous animatronic toy. While some of the stories used in the TV series were adapted from the books, many were original and greatly expanded upon the world established there. The series differed from traditional children's animation in that most of its 65 episodes were serialized rather than in traditional episodic form.</synopsis>
                 <title>The Adventures of Teddy Ruxpin</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1430.0</total_duration>
+                <awards> N/A </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PhilBaron"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WillRyan"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JohnStocker"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTeddyRuxpinScore">
@@ -252,11 +265,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertUrich">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertUrichScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43.0</episode_duration>
@@ -268,7 +279,7 @@
                 <synopsis>The Lazarus Man is an American Western television series produced by Castle Rock Entertainment which first aired on January 20, 1996, and ended on November 9, 1996. Starring Robert Urich as the title character, The Lazarus Man debuted on Turner Network Television and ran for 20 episodes.</synopsis>
                 <title>Robert Urich</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">946.0</total_duration>
-            </owl:NamedIndividual> -->
+                <awards>  </awards>            </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertUrichScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
@@ -280,11 +291,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShow">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShowScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
@@ -296,6 +305,10 @@
                 <synopsis>The McLean Stevenson Show is an American sitcom that aired on NBC on Wednesday nights from December 1, 1976 to March 3, 1977.</synopsis>
                 <title>The McLean Stevenson Show</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">360.0</total_duration>
+                <awards> N/A </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#McLeanStevenson"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BarbaraStuart"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MadgeWest"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShowScore">
@@ -308,11 +321,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoad">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoadScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</episode_duration>
@@ -324,6 +335,10 @@
                 <synopsis>Three for the Road is an American drama television series that aired on CBS from September 14 to November 30, 1975. The series follows two brothers and their recently widowed father, who travel around the country in a recreational vehicle.</synopsis>
                 <title>Three for the Road</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">720.0</total_duration>
+                <awards> N/A </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CharlieSheen"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KerriGreen"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AlanRuck"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoadScore">
@@ -336,11 +351,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLionKingsTimonPumbaa">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLionKingsTimonPumbaaScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
@@ -352,6 +365,10 @@
                 <synopsis>The Lion King's Timon & Pumbaa, often simply referred to as Timon & Pumbaa, is an American animated buddy children's television series created by Walt Disney Television Animation. Based on the 1994 Disney animated film The Lion King, it centers on Timon the meerkat and Pumbaa the warthog, as they live their problem-free philosophy "Hakuna Matata". Voice actors Ernie Sabella and Nathan Lane reprised their film roles as the title characters, with the latter voicing in only season 1.</synopsis>
                 <title>The Lion King's Timon and Pumbaa</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1870.0</total_duration>
+                <awards> 3 wins & 14 nominations </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ErnieSabella"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KevinSchon"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JimCummings"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLionKingsTimonPumbaaScore">
@@ -364,11 +381,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercover">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercoverScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43.0</episode_duration>
@@ -380,6 +395,10 @@
                 <synopsis>UC: Undercover is an American procedural drama television series created by Shane Salerno and Don Winslow. The series premiered on the NBC network on September 30, 2001. The series ran for one season of 13 episodes, finishing its run on March 23, 2002. It focused on the secret lives and private demons of an elite Justice Department crime-fighting unit that confronted the United States' deadliest, most untouchable lawbreakers by going undercover to bust them.</synopsis>
                 <title>UC: Undercover</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">559.0</total_duration>
+                <awards> 1 win & 3 nominations </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OdedFehr"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonSeda"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#VeraFarmiga"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercoverScore">
@@ -392,11 +411,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossing">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossingScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>Norway</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55.0</episode_duration>
@@ -408,6 +425,10 @@
                 <synopsis>Atlantic Crossing is a historical drama in the form of a television miniseries set in Norway and the United States during World War II. The series is wide-ranging but pays special attention to interactions between Crown Princess Martha of Norway and President Franklin Roosevelt during the period when Martha was a war refugee in the United States after fleeing the 1940 Nazi Invasion of Norway. Some portions with Norwegian spoken dialogue are subtitled in English. It premiered on 25 October 2020 on NRK in Norway. The series premiered 4 April 2021 on Masterpiece Theatre on PBS.</synopsis>
                 <title>Atlantic Crossing</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">440.0</total_duration>
+                <awards> 2 wins & 1 nomination </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KyleMacLachlan"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SofiaHelin"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TobiasSantelmann"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossingScore">
@@ -420,11 +441,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDelicious">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDeliciousScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>U.S.</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55.0</episode_duration>
@@ -436,6 +455,10 @@
                 <synopsis>Ugly Delicious is a non-fiction original series on Netflix combining travel, cooking, and history. Each episode highlights one dish or concept, and explores how it is made in different regions and how it evolves. The first season premiered on February 23, 2018 with host David Chang. On November 22, 2018, it was renewed for a second season, which premiered on March 6, 2020. The second season contained only half as many episodes as the first, likely due to Chang's increasingly busy schedule and the birth of his first child.</synopsis>
                 <title>Ugly Delicious</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">660.0</total_duration>
+                <awards> Nominated for 1 Primetime Emmy. 1 win & 1 nomination total </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DavidChang"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PeterMeehan"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AzizAnsari"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDeliciousScore">
@@ -448,11 +471,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpiderman">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpidermanScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
@@ -464,6 +485,10 @@
                 <synopsis>Ultimate Spider-Man is an American superhero animated television series based on the Spider-Man comics published by Marvel Comics. The series featured writers such as Brian Michael Bendis (who also created the comic book series of the same name), Paul Dini, and Man of Action (a group consisting of Steven T. Seagle, Joe Kelly, Joe Casey and Duncan Rouleau). The third season was retitled Ultimate Spider-Man: Web-Warriors and the fourth and final season was retitled Ultimate Spider-Man vs. the Sinister 6.</synopsis>
                 <title>Ultimate Spider-Man</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2288.0</total_duration>
+                <awards> 9 nominations </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DrakeBell"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OgieBanks"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ChiMcBride"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpidermanScore">
@@ -476,11 +501,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFuture">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFutureScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>Australia</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25.0</episode_duration>
@@ -492,6 +515,10 @@
                 <synopsis>Ultraman: Towards the Future, released in Japan as Ultraman Great (ウルトラマンG（グレート）, Urutoraman Gurēto), is a Japanese–Australian tokusatsu science fiction television series produced as a co-production between Tsuburaya Productions and the South Australian Film Corporation. It is the 10th installment in the Ultra Series, the first series to be produced during Japan's Heisei period and the third foreign production in the franchise after Ultraman: The Adventure Begins.</synopsis>
                 <title>Ultraman: Towards the Future</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">325.0</total_duration>
+                <awards> N/A </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DoreKraus"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GiaCarides"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RalphCotterill"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFutureScore">
@@ -504,11 +531,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCover">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCoverScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>United_States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45.0</episode_duration>
@@ -520,6 +545,10 @@
                 <synopsis>Under Cover is an American secret agent drama series that premiered on ABC on January 7, 1991. The series starred Anthony John Denison and Linda Purl as Dylan and Kate Del'Amico, a husband and wife who share the same day job—as spies for a fictional U.S. intelligence agency. Under Cover follows the couple's adventures as they attempt to balance the demands of a sometimes deadly profession while raising two children. The series co-starred John Rhys-Davies as Flynn, the team's gadget man (analogous to James Bond's Q) who is also a deadly assassin.</synopsis>
                 <title>Under Cover</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">585.0</total_duration>
+                <awards> N/A </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DavidNeidorf"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JenniferJasonLeigh"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BarryCorbin"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCoverScore">
@@ -532,11 +561,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Unikitty">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnikittyScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>Denmark</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11.0</episode_duration>
@@ -548,6 +575,10 @@
                 <synopsis>Unikitty! (stylized as UniKitty!) is an American animated television series developed by Ed Skudder and Lynn Wang for Cartoon Network. It is produced by The Lego Group and Warner Bros. Animation and the series stars the character of the same name from The Lego Movie and its sequel, The Lego Movie 2: The Second Part.</synopsis>
                 <title>Unikitty!</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1144.0</total_duration>
+                <awards> 1 nomination </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KateMicucci"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TaraStrong"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GreyGriffin"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnikittyScore">
@@ -560,11 +591,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonio">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonioScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</episode_duration>
@@ -576,6 +605,10 @@
                 <synopsis>My Antonio was a reality television show about Antonio Sabàto, Jr. first broadcast on VH1 in 2009. The series followed Sabàto (then 37 years of age) in his search for a partner. Single women arrived in Hawaii to compete for Sabàto's approval. Extra drama was created by the addition of Sabàto's mother and the appearance of his ex-wife Tully Jensen as one of the competitors.</synopsis>
                 <title>My Antonio</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">600.0</total_duration>
+                <awards> N/A </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AntonioSabatoJr."/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ChristiShake"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AutumnAnderson"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonioScore">
@@ -588,11 +621,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouver">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouverScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>Canada</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</episode_duration>
@@ -604,6 +635,10 @@
                 <synopsis>Love It or List It Vancouver, known as Love It or List it Too in the United States, is a Canadian home design reality TV series airing on the W Network. The show was the first spin off from Love It or List It and was the second show in the Love it or List It franchise. The show is produced by Big Coat Productions and is based in the Greater Vancouver area and other surrounding areas in British Columbia, Canada. In November 2017, the series was planning to film in the Okanagan valley.</synopsis>
                 <title>Love It or List It Vancouver</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7740.0</total_duration>
+                <awards> 1 win & 3 nominations </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JillianHarris"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ToddTalbot"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KennyGemmill"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouverScore">
@@ -616,11 +651,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheJosephSmithPapers">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheJosephSmithPapersScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
@@ -632,7 +665,7 @@
                 <synopsis>The Joseph Smith Papers: Television Documentary Series is a documentary television series produced by and the Larry H. Miller Communications Corporation. The series documented the creation of, and work involved in, the Joseph Smith Papers Project. It also discussed the history of Joseph Smith, the founder and first prophet of The Church of Jesus Christ of Latter-day Saints (LDS Church), as well as the early history of the Latter Day Saint movement.</synopsis>
                 <title>The Joseph Smith Papers</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2820.0</total_duration>
-            </owl:NamedIndividual> -->
+                <awards>  </awards>            </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheJosephSmithPapersScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
@@ -644,11 +677,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMoeShow">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMoeShowScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>New Zealand</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24.0</episode_duration>
@@ -660,6 +691,11 @@
                 <synopsis>The Moe Show is a New Zealand live-action preschool puppet series. It follows puppet character Moe on his journeys of discovery throughout New Zealand.</synopsis>
                 <title>The Moe Show</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5208.0</total_duration>
+                <awards> N/A </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeremyDillon"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SimonMcKinney"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AlanParr"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SarahThomson"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMoeShowScore">
@@ -672,11 +708,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Udaariyaan">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UdaariyaanScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>India</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23.0</episode_duration>
@@ -688,6 +722,10 @@
                 <synopsis>Udaariyaan is an Indian television drama series that airs on Colors TV. Produced by Sargun Mehta and Ravi Dubey, it premiered on 15 March 2021. It stars Ankit Gupta, and Priyanka Choudhary .</synopsis>
                 <title>Udaariyaan</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3381.0</total_duration>
+                <awards> N/A </awards>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AnkitGupta"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PriyankaChaudhary"/>
+                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IshaMalviya"/>
             </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UdaariyaanScore">
@@ -700,11 +738,9 @@
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UmHārūn">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UmHārūnScore"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>Kuwait</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45.0</episode_duration>
@@ -716,7 +752,7 @@
                 <synopsis>Um Hārūn (Gulf Arabic: ام هارون‎, romanized: Um Hārūn, lit. 'Mother of Aaron', Gulf Arabic pronunciation: [ʊm häːruːn]) is a Kuwaiti television series that started airing during the , a time when TV viewership in Arabic-speaking countries is very high. Most of the actors and actresses are from Arab states of the Persian Gulf, with the most notable being from Kuwait.</synopsis>
                 <title>Um Hārūn</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1350.0</total_duration>
-            </owl:NamedIndividual> -->
+                <awards>  </awards>            </owl:NamedIndividual> -->
 
 <!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UmHārūnScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>

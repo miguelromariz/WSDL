@@ -96,16 +96,21 @@ def createSeriesJson():
             if(seriesGenre.find("_film")!=-1):                           #Action_film p.ex.
                 seriesGenre = seriesGenre.split("_film",1)[0]
 
+            #rawTitle = seriesIRI.split("resource/",1) [1] #parse iri            
             scores = getScoresAPIs(seriesTitle)
             seriesIMDBscore = scores.get('imdb')
             seriesMetacriticScore = scores.get('metacritic')
             seriesRottenTomatoesScore = scores.get('rottentomatoes')
 
+            writers = scores.get('writers')
+            cast = scores.get('cast')
+            awards = scores.get('awards')
+
             #count += 1
             #print("LINHA:" + str(count))
 
             type = "TVSeries"
-            movies[seriesTitle] = [seriesIRI, seriesAbstract, seriesLanguage, seriesRelease, seriesCompletion, seriesProducer, seriesExecutiveProducer, seriesEpisodes, seriesSeasons, seriesEpisodeDuration, seriesCountry, seriesGenre,seriesIMDBscore, seriesMetacriticScore,seriesRottenTomatoesScore, type]
+            movies[seriesTitle] = [seriesIRI, seriesAbstract, seriesLanguage, seriesRelease, seriesCompletion, seriesProducer, seriesExecutiveProducer, seriesEpisodes, seriesSeasons, seriesEpisodeDuration, seriesCountry, seriesGenre,seriesIMDBscore, seriesMetacriticScore,seriesRottenTomatoesScore, writers, cast, awards, type]
 
         firstline = False
     
@@ -152,7 +157,7 @@ def main():
     #filterSeries()
 
     #print("------------MOVIES-------------")
-    createMoviesJson()
+    #createMoviesJson()
     #print("------------SERIES-------------s")
     createSeriesJson()    
     
