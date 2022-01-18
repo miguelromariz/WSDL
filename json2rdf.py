@@ -193,9 +193,185 @@ def print_t(t):
             print(t[k])
             print("")
 
+def prepareActorsList(file, file2):
+    actorsList = {}
+    with open(file, "r",  encoding="utf8") as f:
+        series = json.loads(f.read())
+        for seriesTitle in series.keys():
+            cast = series[seriesTitle][16]
+            if(cast != ""):
+                cast = cast.split(",")
+                for actor in cast:
+                    if actor not in actorsList:
+                        actorsList[actor] = [[],[]]
+                        actorsList[actor][1].append(seriesTitle)
+                        if "actor" not in actorsList[actor][0]:
+                            actorsList[actor][0].append("actor")
+                    else: 
+                        actorsList[actor][1].append(seriesTitle)
+                        if "actor" not in actorsList[actor][0]:
+                            actorsList[actor][0].append("actor")
+
+    with open(file2, "r",  encoding="utf8") as f:
+        movies = json.loads(f.read())
+        for moviesTitle in movies.keys():
+            cast = movies[moviesTitle][12]
+            if(cast != "" and cast != "N/A"):
+                cast = cast.split(",")
+                for actor in cast:
+                    actor=actor.replace(" ","")
+                    if actor not in actorsList:
+                        actorsList[actor] = [[],[]]
+                        actorsList[actor][1].append(moviesTitle)
+                        if "actor" not in actorsList[actor][0]:
+                            actorsList[actor][0].append("actor")
+                    else: 
+                        actorsList[actor][1].append(moviesTitle)
+                        if "actor" not in actorsList[actor][0]:
+                            actorsList[actor][0].append("actor")
+    return actorsList
+
+def prepareDirectorList(file):
+    directorsList = {}
+    with open(file, "r",  encoding="utf8") as f:
+        movies = json.loads(f.read())
+        for moviesTitle in movies.keys():
+            movieDirector = movies[moviesTitle][1]
+            movieDirector = movieDirector.replace("_","")
+            if(movieDirector not in directorsList):
+                directorsList[movieDirector] = [[],[]]
+                directorsList[movieDirector][1].append(moviesTitle)
+                if "director" not in directorsList[movieDirector][0]:
+                    directorsList[movieDirector][0].append("director")
+            else: 
+                directorsList[movieDirector][1].append(moviesTitle)
+                if "director" not in directorsList[movieDirector][0]:
+                    directorsList[movieDirector][0].append("director")
+    return directorsList
+
+
+def prepareWritersList(file, file2):
+    writersList = {}
+    with open(file, "r",  encoding="utf8") as f:
+        series = json.loads(f.read())
+        for seriesTitle in series.keys():
+            writers = series[seriesTitle][15]
+            if(writers != "" and writers != "N/A"):
+                writers = writers.split(",")
+                ##print(writers)
+                for writer in writers:
+                    writer = writer.replace(" ","")
+                    if writer not in writersList:
+                        writersList[writer] = [[],[]]
+                        writersList[writer][1].append(seriesTitle)
+                        if "writer" not in writersList[writer][0]:
+                            writersList[writer][0].append("writer")
+                    else: 
+                        if "writer" not in writersList[writer][0]:
+                            writersList[writer][0].append("writer")
+        
+    with open(file2, "r",  encoding="utf8") as f:
+        movies = json.loads(f.read())
+        for seriesTitle in movies.keys():
+            writers = movies[seriesTitle] [11]
+            if(writers != "" and writers != "N/A"):
+                writers = writers.split(",")
+                ##print(writers)
+                for writer in writers:
+                    writer = writer.replace(" ","")
+                    if writer not in writersList:
+                        writersList[writer] = [[],[]]
+                        writersList[writer][1].append(seriesTitle)
+                        if "writer" not in writersList[writer][0]:
+                            writersList[writer][0].append("writer")
+                    else: 
+                        writersList[writer][1].append(seriesTitle)
+                        if "writer" not in writersList[writer][0]:
+                            writersList[writer][0].append("writer")
+    return writersList
+
+def prepareProducersList(file):
+    producersList = {}
+    with open(file, "r",  encoding="utf8") as f:
+        series = json.loads(f.read())
+        for seriesTitle in series.keys():
+            seriesProducer = series[seriesTitle][5]
+            if(seriesProducer != "" and seriesProducer != "N/A"):
+                seriesProducer = seriesProducer.split(",")
+                ##print(writers)
+                for producer in seriesProducer:
+                    producer = producer.replace(" ","")
+                    if producer not in producersList:
+                        producersList[producer] = [[],[]]
+                        producersList[producer][1].append(seriesTitle)
+                        if "writer" not in producersList[producer][0]:
+                            producersList[producer][0].append("producer") 
+                    else: 
+                        producersList[producer][1].append(seriesTitle)
+                        if "writer" not in producersList[producer][0]:
+                            producersList[producer][0].append("producer")
+    #print(len(producersList))
+    return producersList
+
+def prepareExecProducersList(file):
+    execProducersList = {}
+    with open(file, "r",  encoding="utf8") as f:
+        series = json.loads(f.read())
+        for seriesTitle in series.keys():
+            seriesExecutiveProducer = series[seriesTitle][6]
+            if(seriesExecutiveProducer != "" and seriesExecutiveProducer != "N/A"):
+                seriesExecutiveProducer = seriesExecutiveProducer.split(",")
+                ##print(writers)
+                for execProducer in seriesExecutiveProducer:
+                    execProducer = execProducer.replace(" ","")
+                    if execProducer not in execProducersList:
+                        execProducersList[execProducer] = [[],[]]
+                        execProducersList[execProducer][1].append(seriesTitle)
+                        if "writer" not in execProducersList[execProducer][0]:
+                            execProducersList[execProducer][0].append("executiveProducer")
+                    else: 
+                        execProducersList[execProducer][1].append(seriesTitle)
+                        if "writer" not in execProducersList[execProducer][0]:
+                            execProducersList[execProducer][0].append("executiveProducer")
+    #print(len(execProducersList))
+    return execProducersList
+
+
+def mergeLists(list1, list2):
+    for key2 in list2.keys():
+        if key2 not in list1:
+            list1[key2] = list2[key2]
+        else:
+            #print(list2[key2][0][0])
+            list1[key2][0].append(list2[key2][0][0])
+            for movie in list2[key2][1]:
+                if movie not in list1[key2][1]:
+                    list1[key2][1].append(movie)
+    return list1
+
+
 def main():
     #t = prepare_movie_rdf(".\jsons\movies.json")
-    f= prepare_series_rdf(".\jsons\series.json")
+    #f= prepare_series_rdf(".\jsons\series.json")
+    actors = prepareActorsList(".\jsons\series.json",".\jsons\movies.json")
+    directors = prepareDirectorList(".\jsons\movies.json")
+    writers = prepareWritersList(".\jsons\series.json",".\jsons\movies.json")
+    producers = prepareProducersList(".\jsons\series.json")
+    execProducers = prepareExecProducersList(".\jsons\series.json")
+
+    print(len(actors))
+    list = mergeLists(actors, directors)
+    print(len(list))
+    list = mergeLists(list, writers)
+    print(len(list))
+    list = mergeLists(list, producers)
+    print(len(list))
+    list = mergeLists(list, execProducers)
+    print(len(list))
+    
+    for key in list.keys():
+        if(key == "JohnnyDepp"):
+            print(list[key])
     #print_t(t)
     #print_t(f)
 
