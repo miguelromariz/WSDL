@@ -6,14 +6,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>India</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.0</episode_duration>
-                <language>http://dbpedia.org/resource/Hindi_language</language>
+                <language>Hindi</language>
+                <genre>Drama</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>Jeet Jayenge Hum is an Indian television drama series airs on Sony Entertainment Television, which premiered on 14 December 2009. The series focuses on the concept of child labor, and is produced by joint venture of Aniruddh Pathak and Sanjay Kohli.</synopsis>
                 <title>Jeet Jayenge Hum</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3952.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeetJayengeHumScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeetJayengeHum"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTonga">
@@ -24,14 +34,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>Australia</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27.0</episode_duration>
                 <language>English</language>
+                <genre>Sitcom</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>Jonah from Tonga is an Australian television sitcom that is written by and starring comedian Chris Lilley. The mockumentary series follows Jonah Takalua, a rebellious 14-year-old Australian boy of Tongan descent who had been introduced in Lilley's 2007 series Summer Heights High. At the conclusion of that series, Jonah was expelled from Summer Heights High School. In this series, his father, Rocky Takalua, has sent him back to his homeland of Tonga to live with his uncle and their family in order to get Jonah's life back on track. The six-part series was produced by Princess Pictures and Chris Lilley in conjunction with the Australian Broadcasting Corporation, and screened on ABC1 in Australia, HBO in America, and BBC Three in the UK. In New Zealand Māori Television screened the first epis</synopsis>
                 <title>Jonah from Tonga</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTongaScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTonga"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.1</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrix">
@@ -42,8 +62,10 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>United_States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
                 <language>English</language>
+                <genre>Action</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
                 <release_date>Unknown</release_date>
@@ -52,22 +74,12 @@
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">572.0</total_duration>
             </owl:NamedIndividual> -->
 
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PalampurExpress">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24.0</episode_duration>
-                <language>http://dbpedia.org/resource/Hindi_language</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Palampur Express is a Hindi language television series that airs on Sony TV, which premiered on 25 May 2009. The story is based on the life of a young woman, Paavni, dreams of becoming an Olympic runner.</synopsis>
-                <title>Palampur Express</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1968.0</total_duration>
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrixScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrix"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.3</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreation">
@@ -78,8 +90,10 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42.0</episode_duration>
                 <language>English</language>
+                <genre>Political satire</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</nr_seasons>
                 <release_date>Unknown</release_date>
@@ -88,22 +102,12 @@
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5292.0</total_duration>
             </owl:NamedIndividual> -->
 
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RealityBitesBack">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Reality Bites Back is a reality show hosted by Michael Ian Black that parodies various reality show formats. It premiered July 17, 2008 on Comedy Central. The name is derived from the 1994 film Reality Bites.</synopsis>
-                <title>Reality Bites Back</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240.0</total_duration>
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreationScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreation"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.6</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoad">
@@ -114,14 +118,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>Australia</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55.0</episode_duration>
                 <language>English</language>
+                <genre>Period_drama</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>Serangoon Road is an Australian-Singaporean television drama series which premiered on 22 September 2013 on the Australian Broadcasting Corporation (ABC) and HBO Asia. It is a detective noir drama set in the 1960s, revolving around Serangoon Road in Singapore. The 10-part series is a collaboration between ABC and HBO Asia and was filmed largely in Singapore. It was created by Paul D. Barron and directed by Peter Andrikidis and Tony Tilse. The final episode of the series aired on 29 November 2013. Though the series received encouraging ratings, HBO has no plans for a second season.</synopsis>
                 <title>Serangoon Road</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">550.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoadScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoad"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.0</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriors">
@@ -132,8 +146,10 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23.0</episode_duration>
                 <language>English</language>
+                <genre>Horror_fiction</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
@@ -142,22 +158,12 @@
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">299.0</total_duration>
             </owl:NamedIndividual> -->
 
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheGhostBusters">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>The Ghost Busters is a live-action children's sitcom that ran in 1975, about a team of bumbling detectives who would investigate ghostly occurrences. Fifteen episodes were produced. The show reunited Forrest Tucker and Larry Storch in roles similar to their characters in F Troop. The series is unrelated to the 1984 film Ghostbusters (though Columbia Pictures did pay Filmation for a license to use the name). Like the film, the series spawned its own animated sequel in 1986.</synopsis>
-                <title>The Ghost Busters</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">465.0</total_duration>
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriorsScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriors"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.0</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheNewScoobyAndScrappydooShowTheNewScoobydooMysteries">
@@ -168,14 +174,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
                 <language>English</language>
+                <genre>Adventure</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>The New Scooby and Scrappy-Doo Show is the sixth incarnation of the Hanna-Barbera Saturday morning cartoon Scooby-Doo. It premiered on September 10, 1983, and ran for one season on ABC as a half-hour program made up of two eleven-minute short cartoons. In 1984, the name of the show was changed to The New Scooby-Doo Mysteries, with the actual show format remaining the same. However, for season 2, Fred and Velma returned to the show after a four year absence. The New Scooby-Doo Mysteries ran for another season on ABC.</synopsis>
                 <title>The New Scooby and Scrappy-Doo Show  / The New Scooby-Doo Mysteries</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">572.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheNewScoobyAndScrappydooShowTheNewScoobydooMysteriesScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheNewScoobyAndScrappydooShowTheNewScoobydooMysteries"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFile">
@@ -186,8 +202,10 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>USA</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
                 <language>English</language>
+                <genre>Anthology</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
@@ -196,22 +214,12 @@
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1170.0</total_duration>
             </owl:NamedIndividual> -->
 
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MakinIt">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24.0</episode_duration>
-                <language>http://dbpedia.org/resource/English_language</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Makin' It is an American sitcom starring David Naughton that aired for nine episodes on Fridays at 8:00PM on ABC from February 1 to March 23, 1979. It also aired in the United Kingdom on ITV from March 21, 1979. In 2002, TV Guide ranked it number 40 on its TV Guide's 50 Worst TV Shows of All Time list.</synopsis>
-                <title>Makin' It</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216.0</total_duration>
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFileScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFile"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.9</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTeddyRuxpin">
@@ -222,14 +230,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>Canada</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
                 <language>English</language>
+                <genre>Animated</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>The Adventures of Teddy Ruxpin is an American/Canadian animated television series based on Teddy Ruxpin, an animatronic teddy bear created by Ken Forsse and distributed by toy manufacturer Worlds of Wonder. It was produced for television syndication by DIC Enterprises with Atkinson Film-Arts using many of the same voice actors used in the book-and-tape series that was made for the eponymous animatronic toy. While some of the stories used in the TV series were adapted from the books, many were original and greatly expanded upon the world established there. The series differed from traditional children's animation in that most of its 65 episodes were serialized rather than in traditional episodic form.</synopsis>
                 <title>The Adventures of Teddy Ruxpin</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1430.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTeddyRuxpinScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTeddyRuxpin"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.4</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertUrich">
@@ -240,14 +258,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43.0</episode_duration>
                 <language>English</language>
+                <genre>Western</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>The Lazarus Man is an American Western television series produced by Castle Rock Entertainment which first aired on January 20, 1996, and ended on November 9, 1996. Starring Robert Urich as the title character, The Lazarus Man debuted on Turner Network Television and ran for 20 episodes.</synopsis>
                 <title>Robert Urich</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">946.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertUrichScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertUrich"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShow">
@@ -258,14 +286,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
                 <language>English</language>
+                <genre>Sitcom</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>The McLean Stevenson Show is an American sitcom that aired on NBC on Wednesday nights from December 1, 1976 to March 3, 1977.</synopsis>
                 <title>The McLean Stevenson Show</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">360.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShowScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShow"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.2</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoad">
@@ -276,14 +314,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</episode_duration>
                 <language>English</language>
+                <genre>Drama</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>Three for the Road is an American drama television series that aired on CBS from September 14 to November 30, 1975. The series follows two brothers and their recently widowed father, who travel around the country in a recreational vehicle.</synopsis>
                 <title>Three for the Road</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">720.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoadScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoad"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.3</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35/100</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLionKingsTimonPumbaa">
@@ -294,14 +342,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
                 <language>English</language>
+                <genre>Adventure</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>The Lion King's Timon & Pumbaa, often simply referred to as Timon & Pumbaa, is an American animated buddy children's television series created by Walt Disney Television Animation. Based on the 1994 Disney animated film The Lion King, it centers on Timon the meerkat and Pumbaa the warthog, as they live their problem-free philosophy "Hakuna Matata". Voice actors Ernie Sabella and Nathan Lane reprised their film roles as the title characters, with the latter voicing in only season 1.</synopsis>
                 <title>The Lion King's Timon and Pumbaa</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1870.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLionKingsTimonPumbaaScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLionKingsTimonPumbaa"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.1</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercover">
@@ -312,14 +370,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43.0</episode_duration>
                 <language>English</language>
+                <genre>Procedural_drama</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>UC: Undercover is an American procedural drama television series created by Shane Salerno and Don Winslow. The series premiered on the NBC network on September 30, 2001. The series ran for one season of 13 episodes, finishing its run on March 23, 2002. It focused on the secret lives and private demons of an elite Justice Department crime-fighting unit that confronted the United States' deadliest, most untouchable lawbreakers by going undercover to bust them.</synopsis>
                 <title>UC: Undercover</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">559.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercoverScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercover"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.8</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossing">
@@ -330,14 +398,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>Norway</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55.0</episode_duration>
                 <language>Norwegian, English</language>
+                <genre>Historical_drama</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>Atlantic Crossing is a historical drama in the form of a television miniseries set in Norway and the United States during World War II. The series is wide-ranging but pays special attention to interactions between Crown Princess Martha of Norway and President Franklin Roosevelt during the period when Martha was a war refugee in the United States after fleeing the 1940 Nazi Invasion of Norway. Some portions with Norwegian spoken dialogue are subtitled in English. It premiered on 25 October 2020 on NRK in Norway. The series premiered 4 April 2021 on Masterpiece Theatre on PBS.</synopsis>
                 <title>Atlantic Crossing</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">440.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossingScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossing"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.2</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDelicious">
@@ -348,14 +426,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>U.S.</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55.0</episode_duration>
                 <language>English</language>
+                <genre>Cooking</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>Ugly Delicious is a non-fiction original series on Netflix combining travel, cooking, and history. Each episode highlights one dish or concept, and explores how it is made in different regions and how it evolves. The first season premiered on February 23, 2018 with host David Chang. On November 22, 2018, it was renewed for a second season, which premiered on March 6, 2020. The second season contained only half as many episodes as the first, likely due to Chang's increasingly busy schedule and the birth of his first child.</synopsis>
                 <title>Ugly Delicious</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">660.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDeliciousScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDelicious"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.8</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpiderman">
@@ -366,14 +454,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
                 <language>English</language>
+                <genre>Action</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>Ultimate Spider-Man is an American superhero animated television series based on the Spider-Man comics published by Marvel Comics. The series featured writers such as Brian Michael Bendis (who also created the comic book series of the same name), Paul Dini, and Man of Action (a group consisting of Steven T. Seagle, Joe Kelly, Joe Casey and Duncan Rouleau). The third season was retitled Ultimate Spider-Man: Web-Warriors and the fourth and final season was retitled Ultimate Spider-Man vs. the Sinister 6.</synopsis>
                 <title>Ultimate Spider-Man</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2288.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpidermanScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpiderman"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.2</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFuture">
@@ -384,14 +482,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>Australia</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25.0</episode_duration>
-                <language>http://dbpedia.org/resource/English_language</language>
+                <language>English</language>
+                <genre>Superhero_fiction</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>Ultraman: Towards the Future, released in Japan as Ultraman Great (ウルトラマンG（グレート）, Urutoraman Gurēto), is a Japanese–Australian tokusatsu science fiction television series produced as a co-production between Tsuburaya Productions and the South Australian Film Corporation. It is the 10th installment in the Ultra Series, the first series to be produced during Japan's Heisei period and the third foreign production in the franchise after Ultraman: The Adventure Begins.</synopsis>
                 <title>Ultraman: Towards the Future</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">325.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFutureScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFuture"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.4</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCover">
@@ -402,14 +510,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>United_States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45.0</episode_duration>
-                <language>http://dbpedia.org/resource/English_language</language>
+                <language>English</language>
+                <genre>Spy_thriller</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>Under Cover is an American secret agent drama series that premiered on ABC on January 7, 1991. The series starred Anthony John Denison and Linda Purl as Dylan and Kate Del'Amico, a husband and wife who share the same day job—as spies for a fictional U.S. intelligence agency. Under Cover follows the couple's adventures as they attempt to balance the demands of a sometimes deadly profession while raising two children. The series co-starred John Rhys-Davies as Flynn, the team's gadget man (analogous to James Bond's Q) who is also a deadly assassin.</synopsis>
                 <title>Under Cover</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">585.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCoverScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCover"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.9</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Unikitty">
@@ -420,8 +538,10 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>Denmark</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11.0</episode_duration>
                 <language>English</language>
+                <genre>Action</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</nr_seasons>
                 <release_date>Unknown</release_date>
@@ -430,490 +550,12 @@
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1144.0</total_duration>
             </owl:NamedIndividual> -->
 
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnitedStatesOfTara">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>United States of Tara is an American television comedy-drama created by Diablo Cody, which aired on Showtime from 2009 to 2011. The series follows the life of Tara (Toni Collette), a suburban artist and mother coping with dissociative identity disorder. The series was based on an idea by Steven Spielberg, who is the executive producer, under his DreamWorks Television label. Other executive producers include writers Darryl Frank, Justin Falvey, director Craig Zisk, and showrunners Cody and Jill Soloway. Former executive producer Alexa Junge quit as showrunner after the first season.</synopsis>
-                <title>United States of Tara</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1080.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Unoloukik">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
-                <language>http://dbpedia.org/resource/Bengali_language</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Unoloukik (Bengali: ঊনলৌকিক) is a Bangladeshi anthology streaming television series written by Shibabrata Barman and directed by Robiul Alam Robi. Individual episodes explore the psychoanalytic journey of the human mind. There are five episodes in this series. The first episode Moribar Holo Taar Shwaad premiered on 12 July 2021, and the last episode of the series Dwikhondito premiered on 12 August 2021 on Chorki. The screenwriting team consists of Neamoth Ullah Masum, Syed Ahmed Shawki, and Naseef Amin along with Shibabrata Barman and Robiul Alam Robi.</synopsis>
-                <title>Unoloukik</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Unscripted">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Unscripted is an American comedy-drama series that aired on HBO in early 2005. Its title referred to the fact that the series was largely improvised by its performers. The series was executive produced by Steven Soderbergh, George Clooney, and Grant Heslov.</synopsis>
-                <title>Unscripted</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UntamedUncut">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Untamed & Uncut (also written as Untamed and Uncut and also Animal Real TV) is an American documentary television series that premiered on June 10, 2008, on Animal Planet. The program depicts unexpected and surprising animal encounters that are caught directly on tape at the scene. Each different video usually has computer 3D rendering of something to do with an animal attack on a human, either intentionally or unintentionally, animals fighting each other, animals causing havoc within a community, or animal rescues in which the animal is in grave danger (e.g., is deeply stuck in mud or ice, or is stuck on a cliff) or has been severely wounded. Most of the time, no one is killed, although a few deaths and many minor and severe injuries have occurred. Due to the disturbing content, Untamed &</synopsis>
-                <title>Untamed and Uncut</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2420.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UntoldTheGreatestSportsStoriesNeverTold">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</episode_duration>
-                <language>http://dbpedia.org/resource/English_language</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Untold: The Greatest Sports Stories Never Told is an original one-hour documentary series featuring some of sports' most compelling figures and the challenges they've endured. It was hosted by Marv Albert. The series aired on Spike TV from 2004 to 2005.</synopsis>
-                <title>Untold: The Greatest Sports Stories Never Told</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">540.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Unwrapped">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90.0</episode_duration>
-                <language>http://dbpedia.org/resource/English_language</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">308</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Unwrapped, also known as Unwrapped with Marc Summers, is an American television program on Food Network that reveals the origins of sponsored foods. It first aired in June 2001 and is hosted by Marc Summers. The show leads viewers on tours of factories and other food-related locations. Popular subjects include candy, breakfast cereal, snacks, and TV dinners. The show's spin-off, Trivia Unwrapped, is a game show also hosted by Marc Summers. In February 2015, a revival series, Unwrapped 2.0, began airing; it's hosted by Alfonso Ribeiro.</synopsis>
-                <title>Unwrapped</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27720.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UsopSontorian">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23.0</episode_duration>
-                <language>http://dbpedia.org/resource/Bahasa_Melayu</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Usop Sontorian is a Malaysian animated cartoon series aired on TV1 from 1996 to 1998. It was created by Ujang and Kamn Ismail (1956–2019) and produced by Kharisma Pictures. Ismail was the managing director of Quest Animations until his death in 2019. Ujang, the creator of the Usop Sontorian characters, was forbidden to draw any cartoon characters similar in likeness to Usop Sontorian, after a failed legal battle to acquire rights to the character. After the series demise and Kharisma Pictures' closure in 1997, many of the production team were switched to different animation companies while others become full-time cartoonist for magazines Ujang and APO?, both under Kharisma Publications (renamed to MOY Publications).</synopsis>
-                <title>Usop Sontorian</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1150.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Alias">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Alias is an American action thriller and science fiction television series created by J. J. Abrams, which was broadcast on ABC for five seasons from September 30, 2001, to May 22, 2006. It stars Jennifer Garner as Sydney Bristow, a double agent for the Central Intelligence Agency posing as an operative for SD-6, a worldwide criminal and espionage organization. Main co-stars throughout all five seasons included Michael Vartan as Michael Vaughn, Ron Rifkin as Arvin Sloane, and Victor Garber as Jack Bristow.</synopsis>
-                <title>Alias</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4725.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AlienՕտարը">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47.0</episode_duration>
-                <language>Armenian</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Alien (Armenian: Օտարը Otary) is an Armenian romantic melodrama television series. The series ended on Shant Premium on March 13, 2017. It premiered on Shant TV on September 18, 2017 and airs every workday at 8:00 (PM). Most of the series took place in Yerevan, Armenia.</synopsis>
-                <title>Alien / Օտարը</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4700.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Alienated">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Alienated is a Canadian science fiction TV series filmed and set in Victoria, British Columbia. The series premiered 8 July 2003 on Space and lasted for two seasons. Mill Creek Entertainment released the complete series on DVD.</synopsis>
-                <title>Alienated</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">660.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AllAboutUs">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>All About Us is an American teen sitcom series that aired on NBC during the station's TNBC lineup from August 4, 2001 to November 10, 2001. It was produced by Peter Engel Productions. The series' premiere episode was directed by Fred Savage. The show was canceled after one season when NBC decided to abandon its TNBC lineup and instead lease its Saturday mornings to Discovery Networks starting in fall 2002.</synopsis>
-                <title>All About Us</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">312.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AllRise">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>All Rise (stylized as all rise.) is an American legal drama television series created by Greg Spottiswood that premiered on CBS on September 23, 2019, as a Monday night entry in the 2019–20 television season and concluded on May 24, 2021. In May 2020, the series was renewed for a second season which premiered on November 16, 2020. In May 2021, the series was canceled after two seasons.</synopsis>
-                <title>All Rise</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1672.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AllSaints">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">493</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>All Saints is an Australian medical drama television series that first screened on the Seven Network on 24 February 1998. Set in the fictional All Saints Western General Hospital, it focused on the staff of Ward 17 until its closure in 2004, which is when the focus changed and began following the staff of the Emergency Department. It was produced by John Holmes alongside Jo Porter, MaryAnne Carroll and Di Drew. The final episode aired on 27 October 2009, completing its recording-breaking 12-year run.</synopsis>
-                <title>All Saints</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22185.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AllThatGlitters">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>All That Glitters is an American sitcom by producer Norman Lear. It consisted of 65 episodes, running five nights a week between April 18 and July 15, 1977, in broadcast syndication. The show, a spoof of the soap opera format, depicted the trials and tribulations of a group of executives at the Globatron corporation. The twist of the series was that it was set within a world of complete role-reversal: Women were the "stronger sex," the executives and breadwinners, while the "weaker sex" – the men – were the secretaries or stay-at-home househusbands. Men were often treated as sex objects.</synopsis>
-                <title>All That Glitters</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1625.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AllTogetherNow">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>All Together Now was an Australian sitcom that was broadcast on Nine Network between 1991 and 1993. The premise involved an aging rocker, played by Jon English trying to maintain his music career while living with his son and daughter. For an undetermined number of initial episodes filmed prior to public broadcast, the show title was "Rhythm and Blues" and had a different theme song.</synopsis>
-                <title>All Together Now</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2525.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AllYouNeedIsLove">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>All You Need Is Love: The Story of Popular Music is the name of a 17-part television documentary series on the history of modern pop music directed by Tony Palmer, originally broadcast worldwide between 1976 and 1980. The series covers some of the many different genres that have fallen under the "pop" label between the mid-19th century and 1976, including folk, ragtime, Tin Pan Alley, vaudeville and music hall, musical theatre, country, swing, jazz, blues, R&B, rock 'n' roll and others.</synopsis>
-                <title>All You Need Is Love</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1020.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AlmostFamily">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Almost Family is an American drama television series based on the Australian television series Sisters, developed by Annie Weisman which aired from October 2, 2019, to February 22, 2020, on Fox. In March 2020, Fox canceled the series after one season.</synopsis>
-                <title>Almost Family</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">598.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AlmostHuman">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Almost Human is an American science fiction/crime drama that aired from November 17, 2013, through March 3, 2014, on Fox. The series was created by J. H. Wyman for Frequency Films, Bad Robot Productions and Warner Bros. Television. Wyman, Bryan Burk and J. J. Abrams are executive producers. After one season, Fox canceled the series on April 29, 2014.</synopsis>
-                <title>Almost Human</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">585.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AloneTogether">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Alone Together is an American comedy series created by and starring Benji Aflalo and Esther Povitsky. Eben Russell also co-created the series and executive produces alongside Aflalo and Povitsky. The series is also produced by The Lonely Island's Andy Samberg, Akiva Schaffer and Jorma Taccone. It follows two platonic best friends who attempt to find a foothold in Los Angeles. It premiered on January 10, 2018 on Freeform. The series' second season began airing on August 1, 2018. On November 2, 2018, Freeform canceled the series after two seasons.</synopsis>
-                <title>Alone Together</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">440.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Alphas">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Alphas is an American superhero drama television series created by Zak Penn and Michael Karnow. It follows a group of people with superhuman abilities, known as "Alphas", as they work to prevent crimes committed by other Alphas.</synopsis>
-                <title>Alphas</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1032.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Amandas">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Amanda's (also known as Amanda's by the Sea) is an American sitcom television series based on the 1970s British sitcom Fawlty Towers that aired on ABC from February 10 to May 26, 1983. The series starred Bea Arthur as Amanda Cartwright, who owns a seaside hotel called "Amanda's by the Sea" and was Arthur's first return to series television since her sitcom Maude ended in 1978. A total of thirteen episodes were produced, with three remaining unaired following the series' cancellation.</synopsis>
-                <title>Amanda's</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">390.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmazingGrace">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Amazing Grace is an American drama television series created by Deborah Jones. The series stars Patty Duke, Joe Spano, Lorraine Toussaint, Robin Gammell, Marguerite Moreau, Justin Garms, Gavin Harrison and Dan Lauria. The series aired on NBC from April 1, 1995, to September 16, 1995. Shot on location in Duke's adopted hometown of Coeur d'Alene, Idaho, the series featured Duke as a newly ordained minister who had experienced addiction to painkillers.</synopsis>
-                <title>Amazing Grace</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmazingStories">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Amazing Stories is an American anthology television series created by Steven Spielberg, that originally ran on NBC in the United States from September 29, 1985 to April 10, 1987. The series was nominated for 12 Emmy Awards and won five. The first season episode "The Amazing Falsworth" earned writer Mick Garris an Edgar Award for Best Episode in a TV Series. It was not a ratings hit (ranking 40th in Season 1 and 52nd in Season 2), however, and the network did not renew it after the two-year contract expired. The 1987 science fiction film Batteries Not Included was originally intended as a story for Amazing Stories, but Spielberg liked the idea so much that he decided to make it a theatrical release.</synopsis>
-                <title>Amazing Stories</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1350.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Amazon">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Amazon (also known as Amazon with Bruce Parry) is a BBC documentary television series co-produced by the and , and hosted by Bruce Parry. In the series, Parry—a former British Royal Marine—travels more than 6,000 km down the Amazon River, by boat, light aircraft, and on foot. Over the course of six episodes, he meets and lives with indigenous peoples, coca farmers, loggers, and illegal miners. The series was released on a two-disc DVD set on 3 November 2008. A book to accompany the series was also published.</synopsis>
-                <title>Amazon</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Amber">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</episode_duration>
-                <language>http://dbpedia.org/resource/English_language</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Amber is an Irish television crime drama series, created by Rob Cawley and Paul Duane and directed by Thaddeus O'Sullivan, that broadcast across four consecutive nights on RTÉ One from 19 to 22 January 2014. The series stars Eva Birthistle and David Murray as parents of a young teenage girl, Amber Bailey (Lauryn Canny), who disappears after being dropped off by her father at a friends' house in Dublin.</synopsis>
-                <title>Amber</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Amen">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Amen is an American sitcom produced by Carson Productions that aired on NBC from September 27, 1986 to May 11, 1991. Set in Sherman Hemsley's real-life hometown of Philadelphia, Amen stars Hemsley as the deacon of a church and was part of a wave of successful sitcoms on NBC in the 1980s and early 1990s which featured predominantly black casts – others included The Cosby Show, A Different World, The Fresh Prince of Bel-Air, and 227.</synopsis>
-                <title>Amen</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2640.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WatchMyChops">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13.0</episode_duration>
-                <language>Unknown</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Watch My Chops (also known as Corneil & Bernie) is a French animated series about an intelligent talking dog, Corneil, and his "dog sitter", Bernie Barges. The series was produced, written, and animated in France, and the English dubbing took place in London at The Sound Company studios. The series was produced by Millimages and aired in the United States on Nicktoons, in the UK on CBBC from 2003 to 2007 and France on France 3 as of December 2003. It starred Keith Wickham, Ben Small, Dian Perry, Dan Russell, Becca Stewart and Laurence Bouvard and more recently Mark Laidman. 52 episodes were produced.</synopsis>
-                <title>Watch My Chops</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1352.0</total_duration>
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnikittyScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Unikitty"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.5</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonio">
@@ -924,8 +566,10 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</episode_duration>
                 <language>Unknown</language>
+                <genre>Reality television</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
@@ -934,22 +578,12 @@
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">600.0</total_duration>
             </owl:NamedIndividual> -->
 
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UrbanGothic">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
-                <language>Unknown</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Urban Gothic was a horror based series of short stories shown on Channel 5 running for two series between May 2000 and December 2001. Filmed on a low budget and broadcast in a later time-slot, it nonetheless acquired a following. It has also since been repeated on the Horror Channel. Set around London there is an underlying story thread that only becomes clear in the last episodes of each series. Each episode was different in style from the others, running the gamut of documentary-style independent film to spoof, to slick dramas similar in style to The Outer Limits or The Twilight Zone.</synopsis>
-                <title>Urban Gothic</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">660.0</total_duration>
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonioScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonio"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouver">
@@ -960,8 +594,10 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>Canada</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</episode_duration>
                 <language>English</language>
+                <genre>Reality_television</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</nr_seasons>
                 <release_date>Unknown</release_date>
@@ -970,22 +606,12 @@
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7740.0</total_duration>
             </owl:NamedIndividual> -->
 
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ProperManors">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Proper Manors is a dramatic soap opera about the small, fictional town of Proper, USA and its inhabitants. The web-based TV series is filmed and produced primarily in Salt Lake City and Ogden, Utah, where most of the cast and crew are from. The show was created by Pietro D'Alessio and is based loosely on his experiences growing up in various locations across the country.</synopsis>
-                <title>Proper Manors</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1870.0</total_duration>
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouverScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouver"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.7</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheJosephSmithPapers">
@@ -996,14 +622,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
                 <language>English</language>
+                <genre>Mormon_studies</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>The Joseph Smith Papers: Television Documentary Series is a documentary television series produced by and the Larry H. Miller Communications Corporation. The series documented the creation of, and work involved in, the Joseph Smith Papers Project. It also discussed the history of Joseph Smith, the founder and first prophet of The Church of Jesus Christ of Latter-day Saints (LDS Church), as well as the early history of the Latter Day Saint movement.</synopsis>
                 <title>The Joseph Smith Papers</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2820.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheJosephSmithPapersScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheJosephSmithPapers"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMoeShow">
@@ -1014,14 +650,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>New Zealand</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24.0</episode_duration>
                 <language>English</language>
+                <genre>Children's_television</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>The Moe Show is a New Zealand live-action preschool puppet series. It follows puppet character Moe on his journeys of discovery throughout New Zealand.</synopsis>
                 <title>The Moe Show</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5208.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMoeShowScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMoeShow"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Udaariyaan">
@@ -1032,14 +678,24 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>India</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23.0</episode_duration>
-                <language>http://dbpedia.org/resource/Punjabi_language</language>
+                <language>Hindi</language>
+                <genre>Drama</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">147</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
                 <synopsis>Udaariyaan is an Indian television drama series that airs on Colors TV. Produced by Sargun Mehta and Ravi Dubey, it premiered on 15 March 2021. It stars Ankit Gupta, and Priyanka Choudhary .</synopsis>
                 <title>Udaariyaan</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3381.0</total_duration>
+            </owl:NamedIndividual> -->
+
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UdaariyaanScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Udaariyaan"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.1</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
 <!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UmHārūn">
@@ -1050,8 +706,10 @@
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
+                <country>Kuwait</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45.0</episode_duration>
                 <language>Arabic</language>
+                <genre>Serial drama</genre>
                 <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</nr_episodes>
                 <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
                 <release_date>Unknown</release_date>
@@ -1060,309 +718,11 @@
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1350.0</total_duration>
             </owl:NamedIndividual> -->
 
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnitedStatesOfAl">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>United States of Al is an American television sitcom created by David Goetsch and Maria Ferrari. It stars Adhir Kalyan and Parker Young, with Elizabeth Alderfer, Kelli Goss, Dean Norris, and Farrah Mackenzie in supporting roles. The series follows Al (Kalyan), an interpreter from Afghanistan who moves to Columbus, Ohio with his friend Riley (Young), a veteran of the United States Marine Corps. Executive produced by Chuck Lorre, it is produced and distributed by Warner Bros. Television Studios.</synopsis>
-                <title>United States of Al</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnprotectedSets">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Unprotected Sets is an American documentary television series that premiered on October 5, 2018, on Epix. On October 13, 2020, it was announced that the second season will premiere on October 16, 2020.</synopsis>
-                <title>Unprotected Sets</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">672.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UntitledWebSeriesAboutASpaceTravelerWhoCanAlsoTravelThroughTime">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Untitled Web Series About a Space Traveler Who Can Also Travel Through Time (UWSAASTWCATTT), also known as Inspector Spacetime, is an adventure-sci-fi web series created by Travis Richey, and based on the television comedy series Community. The series is based on a fictional series first mentioned during the episode "Biology 101" of Community. Inspector Spacetime is, by itself, a Doctor Who parody. UWSAASTWCATTT follows The Inspector, a character that can travel through time and space by way of a red BOOTH (Bio Organic Omnidirectional Time Helix), a special space/timeship similar in some ways to the TARDIS. Reception for the series has been positive, with USA Today including it in their "Best of TV on the Web in 2012" list. A feature film based on the series, entitled The Inspector Chronic</synopsis>
-                <title>Untitled Web Series About a Space Traveler Who Can Also Travel Through Time</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AllAmerican">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>All American is an American sports drama television series, created by April Blair that premiered on The CW on October 10, 2018. The series is inspired by the life of professional American football player Spencer Paysinger with Daniel Ezra in the lead role.In January 2020, The CW renewed the series for a third season which premiered on January 18, 2021. In February 2021, the series was renewed for a fourth season which is set to premiere on October 25, 2021.</synopsis>
-                <title>All American</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2499.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AllNight">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>All Night is an American teen comedy streaming television series created by Jason Ubaldi that premiered on May 11, 2018, on Hulu. The series stars a large ensemble of actors including Chris Avila, Brec Bassinger, Chanel Celaya, Ty Doran, Teala Dunn, Allie Grant, Caleb Ray Gallegos, and Eva Gutowski. The series is executive produced by Ubaldi, Brian Dannelly, Shelley Zimmerman, Jordan Levin, Brett Bouttier, and Joe Davola.</synopsis>
-                <title>All Night</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AllForNothing">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>All for Nothing? is a Canadian real estate and design television series that airs on the W Network. The series is produced by Mountain Road Productions and is based in Ottawa and its surrounding areas. The first season premiered on October 7, 2010, comprising 13 one-hour episodes and has since aired on Casa. It can also currently be seen on the Ion Life channel in the United States.</synopsis>
-                <title>All for Nothing?</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1755.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmericasFunniestHomeVideos">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">721</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>America's Funniest Home Videos, also called America's Funniest Videos (abbreviated as AFHV and AFV), is an American video clip television series on ABC, based on the Japanese variety show Fun TV with Kato-chan and Ken-chan. The show featured humorous homemade videos that are submitted by viewers. The most common videos feature unintentional physical comedy, pets or children and some staged pranks.</synopsis>
-                <title>America's Funniest Home Videos</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15862.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAmazingExtraordinaryFriends">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
-                <language>Unknown</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>The Amazing Extraordinary Friends is a New Zealand superhero television series featuring the adventures of a modern-day superhero teenage boy and his friends. The protagonist is a teenage boy called Ben Wilson who finds out about a superhero insignia which gives him powers. He has difficulty with them, especially flight and using eye lasers at first, but soon learns to control them fairly well. His grandfather is also a superhero, and this is how he comes to acquire the insignia. His mother hates all the superhero business going on for the sake of safety, but his father and stepfather both encourage him, his father being the previous superhero in Ben's position, Captain Xtraordinary or simply Captain X, and his stepfather being the son of a supervillain, The Comedian. The position, it is f</synopsis>
-                <title>The Amazing Extraordinary Friends</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1200.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WorkoutFromWithinWithJeffHalevy">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
-                <language>Unknown</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Workout From Within with Jeff Halevy is an American syndicated talk show airing weekly in the U.S. It debuted on April 25, 2013. The half-hour-long primetime program is produced and distributed in the U.S. by .</synopsis>
-                <title>Workout From Within with Jeff Halevy</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1560.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmericasNextTopModel">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">315</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>America's Next Top Model (abbreviated ANTM and Top Model) is an American reality television series and interactive competition in which a number of aspiring models compete for the title of "America's Next Top Model" and a chance to begin their career in the modeling industry. Created by Tyra Banks, who also serves as an executive producer, and developed by Ken Mok and Kenya Barris, the series premiered in May 2003, and aired semiannually until 2012, then annually from 2013. The first six seasons (referred to as "cycles") aired on UPN, before UPN merged with The WB to create The CW in 2006. The following sixteen cycles aired on The CW until the series was first cancelled in October 2015. The series was revived in 2016 and has been airing on VH1 ever since. The series was among the highest-r</synopsis>
-                <title>America's Next Top Model</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13545.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmericanDream">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>American Dream is an American drama television series created by Ronald M. Cohen. The series stars George Barrow, Stephen Macht, Karen Carlson, Hans Conried, Michael Hershewe, Timothy Owen Waldrip and Andrea Smith. The series aired on ABC from April 26, 1981, to June 10, 1981. The series concerned a father (Macht) who worried that his children were learning bigotry and superficial values in the suburbs. So moved his wife, Donna, and three children (teenage Casey and pre-teens Todd and Jenny) to multiracial urban Chicago. There, Donna's father, Sam, moved in.</synopsis>
-                <title>American Dream</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">336.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmericanDreamer">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>American Dreamer is an American sitcom television series created by Susan Seeger, which aired on NBC from September 20, 1990, until June 22, 1991, as part of its 1990-91 lineup. American Dreamer stars Robert Urich as fictional character Tom Nash, formerly a high-powered network correspondent who was forced to reassess his priorities following the death of his wife. He decided to give up his career in order to spend more time with his children. To do this, he moved to Kenosha, Wisconsin, where he supported his family by contributing a column about "real people" to a Chicago newspaper. His editor, Joe Baines (Jeffrey Tambor), felt Tom was completely wasting his talents and drove out from Chicago weekly (a huge sacrifice, from his viewpoint) to attempt to convince Tom to return the world of "</synopsis>
-                <title>American Dreamer</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">510.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmericanDreams">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>American Dreams is an American drama television series that ran on NBC for three seasons & 61 episodes, from September 29, 2002 to March 30, 2005. The show tells the story of the Pryor family of Philadelphia during the mid-1960s, with many plotlines centered around teenager Meg Pryor (Brittany Snow), who dances on Dick Clark's American Bandstand. The show often featured contemporary musicians performing as popular musicians of the 1960s. Season one takes place in 1963–64, season two in 1964–65, and season three in 1965–66.</synopsis>
-                <title>American Dreams</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3660.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmericanFamily">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>American Family, sometimes called American Family: Journey of Dreams is a PBS series created by Gregory Nava that follows the lives of a Latino family in Los Angeles. This was the first broadcast television drama series featuring a predominantly Latino cast. It also was the first original primetime American episodic drama to air on PBS in decades—since the series I'll Fly Away moved to the network.</synopsis>
-                <title>American Family</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1575.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmericanGothic">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>American Gothic is an American mystery drama television series created by Corinne Brinkerhoff. CBS announced a 13-episode straight-to-series order on October 9, 2015. The show premiered on June 22, 2016. On October 17, 2016, CBS cancelled the series after one season.</synopsis>
-                <title>American Gothic</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">559.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmericanWoman">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>American Woman is an American comedy series inspired by the childhood of actress and reality star Kyle Richards that premiered on June 7, 2018, on Paramount Network. The series was created by John Riggi and stars Alicia Silverstone, Mena Suvari, Jennifer Bartels, Makenna James, and Lia McHugh. On September 5, 2018, it was announced that the series had been cancelled after one season.</synopsis>
-                <title>American Woman</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">286.0</total_duration>
-            </owl:NamedIndividual> -->
-
-<!--    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ArrestedDevelopment">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TVSeries"/>
-                <hasAwards rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Award1"/>
-                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Actor1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
-                <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.0</episode_duration>
-                <language>English</language>
-                <nr_episodes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</nr_episodes>
-                <nr_seasons rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</nr_seasons>
-                <release_date>Unknown</release_date>
-                <synopsis>Arrested Development is an American television sitcom created by Mitchell Hurwitz, which originally aired on Fox for three seasons from November 2, 2003, to February 10, 2006. The show follows the Bluths, a formerly wealthy dysfunctional family. It is presented in a serialized format, incorporating handheld camera work, voice-over narration, archival photos, and historical footage. The show maintains numerous running gags and catchphrases. Ron Howard serves as both an executive producer and the omniscient narrator and, in later seasons, appears in the show portraying a fictionalized version of himself. Set in Newport Beach, California, Arrested Development was filmed primarily in Culver City and Marina del Rey.</synopsis>
-                <title>Arrested Development</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4032.0</total_duration>
+<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UmHārūnScore">
+                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UmHārūn"/>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
+                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual> -->
 
