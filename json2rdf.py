@@ -59,12 +59,15 @@ def createSeriesRDF(seriesTitle, seriesIRI, seriesAbstract, seriesLanguage, seri
     if( seriesExecutiveProducer == "" ): seriesExecutiveProducer = "Unknown"
     if( seriesCountry == ""): seriesCountry="Unknown"
     if( seriesGenre == ""): seriesGenre = "Unknown"
+    if( seriesAwards == "" or seriesAwards != "N/A"): seriesAwards = "0"
 
     totalDuration = int(seriesEpisodes) * float(seriesEpisodeDuration)
 
-    #Parse actors list
+    #Parse arrays
     actorsArray = seriesCast.split(', ')
-    #print("ACTORS from " + seriesTitle + ": " + str(actorsArray))
+    producersArray = seriesProducer.split(', ')
+    executiveProducersArray = seriesExecutiveProducer.split(', ')
+    writersArray = seriesWriters.split(', ')
 
     file1 = open("rdfs\series.owl","a",  encoding="utf8")
     
@@ -74,7 +77,6 @@ def createSeriesRDF(seriesTitle, seriesIRI, seriesAbstract, seriesLanguage, seri
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
                 <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}Score"/>
-                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff1"/>
                 <country>{seriesCountry}</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{seriesEpisodeDuration}</episode_duration>
                 <language>{seriesLanguage}</language>
@@ -85,15 +87,34 @@ def createSeriesRDF(seriesTitle, seriesIRI, seriesAbstract, seriesLanguage, seri
                 <synopsis>{seriesAbstract}</synopsis>
                 <title>{title}</title>
                 <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{totalDuration}</total_duration>
-                <awards> {seriesAwards} </awards>'''
+                <awards> {seriesAwards} </awards>\n'''
+
+    if seriesProducer != 'Unknown':
+        for producerName in producersArray:
+            nameaux = producerName.replace(" ", "")
+            name = nameaux.replace("_", "")
+            rdf += f'''                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{name}"/>\n'''
+
+    if seriesExecutiveProducer != 'Unknown':
+        for execName in executiveProducersArray:
+            if(execName not in producersArray):
+                nameaux = execName.replace(" ", "")
+                name = nameaux.replace("_", "")
+                rdf += f'''                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{name}"/>\n'''
+
+    if seriesWriters != 'N/A':
+        for writerName in writersArray:
+                nameaux = writerName.replace(" ", "")
+                name = nameaux.replace("_", "")
+                rdf += f'''                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{name}"/>\n'''
 
     if seriesCast != '':
-        rdf += "\n"
         for actorName in actorsArray:
-            name = actorName.replace(" ", "")
+            nameaux = actorName.replace(" ", "")
+            name = nameaux.replace("_", "")
             rdf += f'''                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{name}"/>\n'''
 
-    rdf += '''            </owl:NamedIndividual> -->\n'''
+    rdf += '''        </owl:NamedIndividual> -->\n'''
 
 
     scoreRdf = f'''<!--         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}Score">
@@ -166,8 +187,6 @@ def prepare_series_rdf(file):
             
     return movie_rdf
 
-
-
 def print_t(t):
     for k in t.keys():
         if t[k]:
@@ -182,88 +201,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-'''
-def redux_movie(m):
-    return "".join(list(filter(lambda c: str.isalnum(c) or c == ' ', string.capwords(m).replace(" ", ""))))
-
-def prepare_act_rdf(file):
-    act_rdf = {}
-    with open(file, "r") as f:
-        d = json.loads(f.read())
-        for act in d.keys():
-            act_rdf[act] = init_actor(act, d)
-
-    return act_rdf
-
-def prepare_dir_rdf(file):
-    dir_rdf = {}
-    with open(file, "r") as f:
-        d = json.loads(f.read())
-        for dirs in d.keys():
-            dir_rdf[dirs] = init_director(dirs, d)
-
-    return dir_rdf'''
-
-'''def init_director(director, d):
-    first_name = director.split(",")[-1].strip()
-    last_name = director.split(",")[0].strip()
-    dtemp = string.capwords(" ".join(director.split(",")[::-1])).replace(" ","")
-    dname = "".join(list(filter(lambda c: str.isalnum(c) or c == ' ', "".join(dtemp))))
-    rdf = f"""
-    <!-- http://www.ime.usp.br/~renata/FOAF-modified#{dname} -->
-    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/~renata/FOAF-modified#{dname}">
-        <rdfs:label>{first_name + " " + last_name}</rdfs:label>
-        <rdf:type rdf:resource="http://www.ime.usp.br/~renata/FOAF-modifiedDirector"/>
-    """
-
-    tempL = []
-    for mov in d[director].keys():
-        if d[director][mov].isnumeric():
-            if not allowed_movies:
-                tempL.append(f'    <renata:FOAF-modifiedmade rdf:resource="http://www.ime.usp.br/~renata/FOAF-modified#{redux_movie(mov)}"/>\n')
-            elif mov in allowed_movies:
-                tempL.append(f'    <renata:FOAF-modifiedmade rdf:resource="http://www.ime.usp.br/~renata/FOAF-modified#{redux_movie(mov)}"/>\n')
-    if tempL == []:
-        return ""
-    rdf +=  "".join(tempL)
-    rdf += f"""
-        <renata:FOAF-modifiedfirstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">{first_name}</renata:FOAF-modifiedfirstName>
-        <renata:FOAF-modifiedfamilyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">{last_name}</renata:FOAF-modifiedfamilyName>
-    </owl:NamedIndividual>
-    """
-
-    return rdf
-
-def init_actor(actor, d):
-    first_name = actor.split(",")[-1].strip()
-    last_name = actor.split(",")[0].strip()
-    atemp = string.capwords(" ".join(actor.split(",")[::-1])).replace(" ","")
-    aname = "".join(list(filter(lambda c: str.isalnum(c) or c == ' ', "".join(atemp))))
-    rdf = f"""
-        <!-- http://www.ime.usp.br/~renata/FOAF-modified#{aname} -->
-    <owl:NamedIndividual rdf:about="http://www.ime.usp.br/~renata/FOAF-modified#{aname}">
-        <rdfs:label>{first_name + " " + last_name}</rdfs:label>
-        <rdf:type rdf:resource="http://www.ime.usp.br/~renata/FOAF-modifiedActor"/>
-    """
-
-    tempL = []
-    for mov in d[actor].keys():
-        if d[actor][mov].isnumeric():
-            if not allowed_movies:
-                tempL.append(f'    <renata:FOAF-modifiedacts rdf:resource="http://www.ime.usp.br/~renata/FOAF-modified#{redux_movie(mov)}"/>\n')
-            elif mov in allowed_movies:
-                tempL.append(f'    <renata:FOAF-modifiedacts rdf:resource="http://www.ime.usp.br/~renata/FOAF-modified#{redux_movie(mov)}"/>\n')
-    if tempL == []:
-        return ""
-
-    rdf +=  "".join(tempL)
-    rdf += f"""
-        <renata:FOAF-modifiedfirstName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">{first_name}</renata:FOAF-modifiedfirstName>
-        <renata:FOAF-modifiedfamilyName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">{last_name}</renata:FOAF-modifiedfamilyName>
-    </owl:NamedIndividual>
-    """
-
-    return rdf'''

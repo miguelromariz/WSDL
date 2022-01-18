@@ -86,6 +86,14 @@ def createSeriesJson():
             if seriesCountry.find("http://")!=-1:
                 seriesCountry = seriesCountry.split("resource/",1) [1]
 
+            #Parse producer url
+            if seriesProducer.find("http://")!=-1:
+                seriesProducer = seriesProducer.split("resource/",1)[1]
+
+            #Parse executive producer url
+            if seriesExecutiveProducer.find("http://")!=-1:
+                seriesExecutiveProducer = seriesExecutiveProducer.split("resource/",1)[1]
+
             #Parse genre url
             if seriesGenre.find("http://")!=-1:
                 seriesGenre = seriesGenre.split("resource/",1)[1]
