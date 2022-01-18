@@ -1,6 +1,7 @@
 import csv
 import json
-#import imdb
+
+from getScores import getScoresAPIs
 
 
 def createMoviesJson():
@@ -32,7 +33,17 @@ def createMoviesJson():
                 movieCountry = movieCountry.split("resource/",1) [1]
 
             type = "Movie"
-            movies[movieTitle] = [movieIRI, movieDirector, movieAbstract, movieCountry, movieLanguage, movieReleaseDate, movieRunTime, type]
+            
+            scores = getScoresAPIs(movieTitle)
+            movieGenre = scores.get('genre')
+            movieIMDBscore = scores.get('imdb')
+            movieMetacriticScore = scores.get('metacritic')
+            movieRottenTomatoesScore = scores.get('rottentomatoes')
+
+            #count += 1
+            #print("LINHA:" + str(count))
+
+            movies[movieTitle] = [movieIRI, movieDirector, movieAbstract, movieCountry, movieLanguage, movieReleaseDate, movieRunTime,movieGenre, movieIMDBscore, movieMetacriticScore, movieRottenTomatoesScore, type]
 
         firstline = False
     
@@ -85,8 +96,16 @@ def createSeriesJson():
             if(seriesGenre.find("_film")!=-1):                           #Action_film p.ex.
                 seriesGenre = seriesGenre.split("_film",1)[0]
 
+            scores = getScoresAPIs(seriesTitle)
+            seriesIMDBscore = scores.get('imdb')
+            seriesMetacriticScore = scores.get('metacritic')
+            seriesRottenTomatoesScore = scores.get('rottentomatoes')
+
+            #count += 1
+            #print("LINHA:" + str(count))
+
             type = "TVSeries"
-            movies[seriesTitle] = [seriesIRI, seriesAbstract, seriesLanguage, seriesRelease, seriesCompletion, seriesProducer, seriesExecutiveProducer, seriesEpisodes, seriesSeasons, seriesEpisodeDuration, seriesCountry, seriesGenre, type]
+            movies[seriesTitle] = [seriesIRI, seriesAbstract, seriesLanguage, seriesRelease, seriesCompletion, seriesProducer, seriesExecutiveProducer, seriesEpisodes, seriesSeasons, seriesEpisodeDuration, seriesCountry, seriesGenre,seriesIMDBscore, seriesMetacriticScore,seriesRottenTomatoesScore, type]
 
         firstline = False
     
@@ -132,7 +151,9 @@ def main():
     #filterMovies()
     #filterSeries()
 
+    #print("------------MOVIES-------------")
     createMoviesJson()
+    #print("------------SERIES-------------s")
     createSeriesJson()    
     
     
