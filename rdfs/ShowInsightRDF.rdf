@@ -410,8 +410,7 @@
         <participates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ResourceExample"/>
         <character_name>John</character_name>
         <person_name>Ian</person_name>
-    </owl:NamedIndividual>
-     -->
+    </owl:NamedIndividual>-->
 
 
     <!-- http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1 -->

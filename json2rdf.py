@@ -22,7 +22,7 @@ def createMovieRDF(movieTitle, movieIRI, movieDirector, movieAbstract, movieCoun
     actorsArray = movieCast.split(', ')
     writersArray = movieWriters.split(', ')
 
-    file1 = open("rdfs\movies.owl","a")
+    file1 = open("rdfs\series.owl","a")
     
 
     rdf =f'''<!--     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}">
@@ -278,7 +278,6 @@ def prepareDirectorList(file):
                     directorsList[movieDirector][0].append("director")
     return directorsList
 
-
 def prepareWritersList(file, file2):
     writersList = {}
     with open(file, "r",  encoding="utf8") as f:
@@ -365,7 +364,6 @@ def prepareExecProducersList(file):
     #print(len(execProducersList))
     return execProducersList
 
-
 def mergeLists(list1, list2):
     for key2 in list2.keys():
         if key2 not in list1:
@@ -378,31 +376,65 @@ def mergeLists(list1, list2):
                     list1[key2][1].append(movie)
     return list1
 
+def writeActorsRDF(lista):
+    file1 = open("rdfs\series.owl","a",  encoding="utf8")
+    rdf=""
+    for key in lista.keys():
+        key2 = key.replace(" ","")
+        key2 = key2.replace("_","")
+        rdf += f'''<!--\t<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{key2}">\n\t\t<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Cast"/>\n'''
+        for movie in lista[key][1]:
+            movie = "".join(list(filter(lambda c: str.isalnum(c) or c == ' ', string.capwords(movie).replace(" ", ""))))
+            movie = movie.replace("&", "and")
+            rdf += f'''\t\t<participates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{movie}"/>\n'''      
+        rdf +=f'''\t\t<person_name>{key}</person_name>\n\t</owl:NamedIndividual>-->\n'''
+    
+    file1.write(rdf)
+    file1.write("\n")
+
+    return rdf
+
+def writeStaffRDF(lista):
+    file1 = open("rdfs\series.owl","a",  encoding="utf8")
+    rdf=""
+    for key in lista.keys():
+        key2 = key.replace(" ","")
+        key2 = key2.replace("_","")
+        rdf += f'''<!--\t<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{key2}">\n'''
+
+        for movie in lista[key][1]:
+            movie = "".join(list(filter(lambda c: str.isalnum(c) or c == ' ', string.capwords(movie).replace(" ", ""))))
+            movie = movie.replace("&", "and")
+            rdf += f'''\t\t<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{movie}"/>\n'''
+
+        rdf +=f'''\t\t<person_name>{key}</person_name>\n'''
+        
+        for role in lista[key][0]:
+            rdf +=f'''\t\t<role>{role}</role>\n'''
+
+        rdf+='''\t</owl:NamedIndividual>-->\n'''
+    
+    file1.write(rdf)
+    file1.write("\n")
+
+    return rdf
+
 
 def main():
-    #t = prepare_movie_rdf(".\jsons\movies.json")
-    #f= prepare_series_rdf(".\jsons\series.json")
+    t = prepare_movie_rdf(".\jsons\movies.json")
+    f= prepare_series_rdf(".\jsons\series.json")
     actors = prepareActorsList(".\jsons\series.json",".\jsons\movies.json")
     directors = prepareDirectorList(".\jsons\movies.json")
     writers = prepareWritersList(".\jsons\series.json",".\jsons\movies.json")
     producers = prepareProducersList(".\jsons\series.json")
     execProducers = prepareExecProducersList(".\jsons\series.json")
 
-    print(len(actors))
-    list = mergeLists(actors, directors)
-    print(len(list))
-    list = mergeLists(list, writers)
-    print(len(list))
-    list = mergeLists(list, producers)
-    print(len(list))
+    list = mergeLists(directors, writers)
+    list = mergeLists(list, producers) 
     list = mergeLists(list, execProducers)
-    print(len(list))
-    
-    for key in list.keys():
-        if(key == "JohnnyDepp"):
-            print(list[key])
-    #print_t(t)
-    #print_t(f)
+    #print(list)
+    writeActorsRDF(actors)
+    writeStaffRDF(list)
 
 if __name__ == '__main__':
     main()
