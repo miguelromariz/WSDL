@@ -1,5 +1,6 @@
 import csv
 import json
+from getRatings import getComments
 
 from getScores import getScoresAPIs
 
@@ -120,11 +121,13 @@ def createSeriesJson():
             cast = scores.get('cast')
             awards = scores.get('awards')
 
+            comments = getComments(seriesTitle)
+
             #count += 1
             #print("LINHA:" + str(count))
 
             type = "TVSeries"
-            movies[seriesTitle] = [seriesIRI, seriesAbstract, seriesLanguage, seriesRelease, seriesCompletion, seriesProducer, seriesExecutiveProducer, seriesEpisodes, seriesSeasons, seriesEpisodeDuration, seriesCountry, seriesGenre,seriesIMDBscore, seriesMetacriticScore,seriesRottenTomatoesScore, writers, cast, awards, type]
+            movies[seriesTitle] = [seriesIRI, seriesAbstract, seriesLanguage, seriesRelease, seriesCompletion, seriesProducer, seriesExecutiveProducer, seriesEpisodes, seriesSeasons, seriesEpisodeDuration, seriesCountry, seriesGenre,seriesIMDBscore, seriesMetacriticScore,seriesRottenTomatoesScore, writers, cast, awards, comments, type]
 
         firstline = False
     
@@ -171,9 +174,9 @@ def main():
     #filterSeries()
 
     #print("------------MOVIES-------------")
-    createMoviesJson()
+    #createMoviesJson()
     #print("------------SERIES-------------s")
-    #createSeriesJson()    
+    createSeriesJson()    
     
     
 
