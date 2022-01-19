@@ -4,9 +4,13 @@ import datetime
 import pytz
 import re
 
-def createMovieRDF(movieTitle, movieIRI, movieDirector, movieAbstract, movieCountry, movieLanguage, movieReleaseDate, movieRunTime,movieGenre, movieIMDBscore, movieMetacriticScore, movieRottenTomatoesScore,movieWriters, movieCast, movieAwards, type):
+def createMovieRDF(movieTitle, movieIRI, movieDirector, movieAbstract, movieCountry, movieLanguage, movieReleaseDate, movieRunTime,movieGenre, movieIMDBscore, movieMetacriticScore, movieRottenTomatoesScore,movieWriters, movieCast, movieAwards, movieComments, type):
     titleNoSpaces = "".join(list(filter(lambda c: str.isalnum(c) or c == ' ', string.capwords(movieTitle).replace(" ", ""))))
     title = movieTitle.replace("&", "and")
+
+    movieIRI = movieIRI.replace("&", "and")
+
+    type="Resource"
 
     if( movieCountry == "" ): movieCountry = "Unknown"
     if( movieLanguage == "" ): movieLanguage = "Unknown"
@@ -25,54 +29,73 @@ def createMovieRDF(movieTitle, movieIRI, movieDirector, movieAbstract, movieCoun
     actorsArray = movieCast.split(', ')
     writersArray = movieWriters.split(', ')
 
-    file1 = open("rdfs\series.owl","a")
+    file1 = open("rdfs\movies2.owl","a")
     
 
-    rdf =f'''     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{type}"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
-                <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}Score"/>
-                <country>{movieCountry}</country>
-                <genre>{movieGenre}</genre>
-                <language>{movieLanguage}</language>
-                <release_date>{movieReleaseDate}</release_date>
-                <synopsis>{movieAbstract}</synopsis>
-                <title>{title}</title>
-                <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{movieRunTime}</total_duration>
-                <awards> {movieAwards} </awards> \n'''
+    rdf =f'''\t<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}">
+            <resource_iri> {movieIRI} </resource_iri>
+            <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{type}"/>
+            <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}Score"/>
+            <country>{movieCountry}</country>
+            <genre>{movieGenre}</genre>
+            <language>{movieLanguage}</language>
+            <release_date>{movieReleaseDate}</release_date>
+            <synopsis>{movieAbstract}</synopsis>
+            <title>{title}</title>
+            <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{movieRunTime}</total_duration>
+            <awards> {movieAwards} </awards> \n'''
 
     if movieDirector != "Unkwnown":
-        rdf += f'''                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{movieDirector}"/>\n'''
+        rdf += f'''\t\t<hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{movieDirector}"/>\n'''
 
     if movieWriters != 'N/A':
         for writerName in writersArray:
             nameaux = writerName.replace(" ", "")
             name = nameaux.replace("_", "")
             if name != movieDirector:
-                rdf += f'''                <hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{name}"/>\n'''
+                rdf += f'''\t\t<hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{name}"/>\n'''
 
     if movieCast != '':
         for actorName in actorsArray:
             nameaux = actorName.replace(" ", "")
             name = nameaux.replace("_", "")
-            rdf += f'''                <hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{name}"/>\n'''
+            rdf += f'''\t\t<hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{name}"/>\n'''
 
 
-    rdf += '''        </owl:NamedIndividual>\n'''
+    nrComments = 1
+    for comment in movieComments:
+        rdf += f'''\t\t<hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}Comment{nrComments}"/>\n'''
+        nrComments += 1
 
-    scoreRdf = f'''         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}Score">
-                <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
-                <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{movieIMDBscore}</imdb_score>
-                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{movieMetacriticScore}</metacritic_score>
-                <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">{movieRottenTomatoesScore}</rottentotomatoes_score>
-            </owl:NamedIndividual> \n'''
+
+    rdf += '''\t</owl:NamedIndividual>\n'''
+
+    scoreRdf = f'''\t<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}Score">
+            <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
+            <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}"/>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{movieIMDBscore}</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{movieMetacriticScore}</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">{movieRottenTomatoesScore}</rottentotomatoes_score>\n\t</owl:NamedIndividual> \n'''
 
     file1.write(rdf)
     file1.write("\n")
     file1.write(scoreRdf)
     file1.write("\n")
+
+    nrComments = 1
+    for comment in movieComments:
+        c_text = comment.get('comment_text').replace("&", "and")
+        c_title = comment.get('comment_title').replace("&", "and")
+
+        commentRdf = f'''\t<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}Comment{nrComments}">
+            <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment"/>
+            <belongs rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}"/>
+            <comment_text>{c_text}</comment_text>
+            <comment_title>{c_title}</comment_title>\n\t</owl:NamedIndividual>
+        '''
+        nrComments += 1
+        file1.write(commentRdf)
+        file1.write("\n")
 
     return rdf
 
@@ -103,14 +126,12 @@ def createSeriesRDF(seriesTitle, seriesIRI, seriesAbstract, seriesLanguage, seri
     executiveProducersArray = seriesExecutiveProducer.split(', ')
     writersArray = seriesWriters.split(', ')
 
-    file1 = open("rdfs\series2.owl","a",  encoding="utf8")
+    file1 = open("rdfs\series.owl","a",  encoding="utf8")
     
 
     rdf =f'''    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}">
                 <resource_iri> {seriesIRI} </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{type}"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}Score"/>
                 <country>{seriesCountry}</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{seriesEpisodeDuration}</episode_duration>
@@ -189,7 +210,6 @@ def createSeriesRDF(seriesTitle, seriesIRI, seriesAbstract, seriesLanguage, seri
 
     return rdf
 
-
 def prepare_movie_rdf(file):
     movie_rdf = {}
     with open(file, "r") as f:
@@ -210,10 +230,10 @@ def prepare_movie_rdf(file):
             movieWriters = movies[moviesTitle][11]
             movieCast = movies[moviesTitle][12]
             movieAwards = movies[moviesTitle][13]
-
-            type = movies[moviesTitle][14]
+            movieComments = movies[moviesTitle][14]
+            type = movies[moviesTitle][15]
             
-            movie_rdf[moviesTitle] = createMovieRDF(moviesTitle, movieIRI, movieDirector, movieAbstract, movieCountry, movieLanguage, movieReleaseDate, movieRunTime,movieGenre, movieIMDBscore, movieMetacriticScore, movieRottenTomatoesScore, movieWriters, movieCast, movieAwards, type)
+            movie_rdf[moviesTitle] = createMovieRDF(moviesTitle, movieIRI, movieDirector, movieAbstract, movieCountry, movieLanguage, movieReleaseDate, movieRunTime,movieGenre, movieIMDBscore, movieMetacriticScore, movieRottenTomatoesScore, movieWriters, movieCast, movieAwards, movieComments, type)
             
     return movie_rdf
 
@@ -410,7 +430,7 @@ def mergeLists(list1, list2):
     return list1
 
 def writeActorsRDF(lista):
-    file1 = open("rdfs\series.owl","a",  encoding="utf8")
+    file1 = open("rdfs\cast.owl","a",  encoding="utf8")
     rdf=""
     for key in lista.keys():
         key2 = key.replace(" ","")
@@ -428,7 +448,7 @@ def writeActorsRDF(lista):
     return rdf
 
 def writeStaffRDF(lista):
-    file1 = open("rdfs\series.owl","a",  encoding="utf8")
+    file1 = open("rdfs\staff.owl","a",  encoding="utf8")
     rdf=""
     for key in lista.keys():
         key2 = key.replace(" ","")
@@ -455,8 +475,8 @@ def writeStaffRDF(lista):
 
 def main():
     #t = prepare_movie_rdf(".\jsons\movies.json")
-    f= prepare_series_rdf(".\jsons\series.json")
-    ''' actors = prepareActorsList(".\jsons\series.json",".\jsons\movies.json")
+    #f= prepare_series_rdf(".\jsons\series.json")
+    actors = prepareActorsList(".\jsons\series.json",".\jsons\movies.json")
     directors = prepareDirectorList(".\jsons\movies.json")
     writers = prepareWritersList(".\jsons\series.json",".\jsons\movies.json")
     producers = prepareProducersList(".\jsons\series.json")
@@ -467,7 +487,7 @@ def main():
     list = mergeLists(list, execProducers)
     #print(list)
     writeActorsRDF(actors)
-    writeStaffRDF(list)'''
+    writeStaffRDF(list)
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,1527 @@
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JamesCameron">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAbyss"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Terminator2JudgmentDay"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Xenogenesis"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheTerminator"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Avatar3"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Aliens"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Avatar"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PiranhaIiTheSpawning"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Titanic"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ExpeditionBismarck"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Avatar2"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TrueLies"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AliensOfTheDeep"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GhostsOfTheAbyss"/>
+		<person_name>JamesCameron</person_name>
+		<role>director</role>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#StevenSpielberg">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Amistad"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTintin"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheSugarlandExpress"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LincolnOriginalMotionPictureSoundtrack"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EmpireOfTheSun"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CloseEncounters"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TwilightZoneTheMovie"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheBfg"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheColorPurple"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MinorityReport"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThePost"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SchindlersList"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#1941"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CatchMeIfYouCan"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WarHorse"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Always"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLostWorldJurassicPark"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ReadyPlayerOne"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BridgeOfSpies"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Duel"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheTempleOfDoom"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Jaws"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheKingdomOfTheCrystalSkull"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WarOfTheWorldsMusicFromTheMotionPicture"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EtTheExtraterrestrial"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AiArtificialIntelligence"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SavingPrivateRyan"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Amblin"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheTerminal"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Hook"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheLastCrusade"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JurassicPark"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RaidersOfTheLostArk"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Munich"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Firelight"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WestSideStory"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SomethingEvil"/>
+		<person_name>StevenSpielberg</person_name>
+		<role>director</role>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TimBurton">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheDemonBarberOfFleetStreet"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DarkShadowsOriginalMotionPictureSoundtrack"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PeeweesBigAdventure"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdWood"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ForPeculiarChildren"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Dumbo"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CorpseBride"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CharlieAndTheChocolateFactory"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SleepyHollowMusicFromTheMotionPicture"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AliceInWonderlandAnOriginalWaltDisneyRecordsSoundtrack"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PlanetOfTheApes"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Vincent"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Frankenweenie"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#StalkOfTheCeleryMonster"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BigEyesMusicFromTheOriginalMotionPicture"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Batman"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BloodcTheLastDark"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Beetlejuice"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheIslandOfDoctorAgor"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BatmanReturns"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MarsAttacks"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BigFish"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdwardScissorhands"/>
+		<person_name>TimBurton</person_name>
+		<role>director</role>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SpikeLee">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DaSweetBloodOfJesus"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JoesBedstuyBarbershopWeCutHeads"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JimBrownAllamerican"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Tanza"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Chiraq"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SheHateMe"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheOriginalKingsOfComedy"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Bamboozled"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DoTheRightThingOriginalMotionPictureScore"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Blackkklansman"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Oldboy"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AHueyPNewtonStory"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SummerOfSam"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#4"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MiracleAtStAnna"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Girl6"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#InsideMan"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KobeDoinWork"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Clockers"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MoBetterBlues"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmericanUtopia"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RodneyKing"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#25"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SchoolDaze"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WhenTheLeveesBroke"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Bad25"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MichaelJacksonsJourneyFromMotownToOffTheWall"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MalcolmX"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ShesGottaHaveIt"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JungleFever"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GetOnTheBus"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Crooklyn"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Da5Bloods"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#HeGotGame"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SuckerFreeCity"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Freak"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RedHookSummer"/>
+		<person_name>SpikeLee</person_name>
+		<role>director</role>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#QuentinTarantino">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FourRooms"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#QuentinTarantinosOnceUponATimeInHollywood"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyBestFriendsBirthday"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Grindhouse"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#InglouriousBasterds"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PulpFiction"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheHatefulEight"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KillBillVolume2"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DeathProof"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ReservoirDogs"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JackieBrown"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DjangoUnchained"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KillBillVolume1"/>
+		<person_name>QuentinTarantino</person_name>
+		<role>director</role>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ChrisLilley">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTonga"/>
+		<person_name>ChrisLilley</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AlanBurnett">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrix"/>
+		<person_name>AlanBurnett</person_name>
+		<role>writer</role>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MarcHyman">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrix"/>
+		<person_name>MarcHyman</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GregDaniels">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreation"/>
+		<person_name>GregDaniels</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MichaelSchur">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreation"/>
+		<person_name>MichaelSchur</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PaulD.Barron">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoad"/>
+		<person_name>PaulD.Barron</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GaryGoddard">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriors"/>
+		<person_name>GaryGoddard</person_name>
+		<role>writer</role>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KenForsse">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTeddyRuxpin"/>
+		<person_name>KenForsse</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#NormanBarasch">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShow"/>
+		<person_name>NormanBarasch</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CarrollMoore">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShow"/>
+		<person_name>CarrollMoore</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RichardMartini">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoad"/>
+		<person_name>RichardMartini</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TimMetcalfe">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoad"/>
+		<person_name>TimMetcalfe</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MiguelTejada-Flores">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoad"/>
+		<person_name>MiguelTejada-Flores</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ShaneSalerno">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercover"/>
+		<person_name>ShaneSalerno</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DonWinslow">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercover"/>
+		<person_name>DonWinslow</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AlexanderEik">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossing"/>
+		<person_name>AlexanderEik</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MorganNeville">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDelicious"/>
+		<person_name>MorganNeville</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ToddMcFarlane">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpiderman"/>
+		<person_name>ToddMcFarlane</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DavidMichelinie">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpiderman"/>
+		<person_name>DavidMichelinie</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BillMantlo">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpiderman"/>
+		<person_name>BillMantlo</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ScottFields">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCover"/>
+		<person_name>ScottFields</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MenahemGolan">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCover"/>
+		<person_name>MenahemGolan</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JohnStockwell">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCover"/>
+		<person_name>JohnStockwell</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdSkudder">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Unikitty"/>
+		<person_name>EdSkudder</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LynnWang">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Unikitty"/>
+		<person_name>LynnWang</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DavidFranzoni">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Amistad"/>
+		<person_name>DavidFranzoni</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WilliamWisher">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Terminator2JudgmentDay"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheTerminator"/>
+		<person_name>WilliamWisher</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FrederickHayward">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheDemonBarberOfFleetStreet"/>
+		<person_name>FrederickHayward</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#H.F.Maltby">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheDemonBarberOfFleetStreet"/>
+		<person_name>H.F.Maltby</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GeorgeDibdin-Pitt">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheDemonBarberOfFleetStreet"/>
+		<person_name>GeorgeDibdin-Pitt</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Hergé">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTintin"/>
+		<person_name>Hergé</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#StevenMoffat">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTintin"/>
+		<person_name>StevenMoffat</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdgarWright">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTintin"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Grindhouse"/>
+		<person_name>EdgarWright</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#HalBarwood">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheSugarlandExpress"/>
+		<person_name>HalBarwood</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MatthewRobbins">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheSugarlandExpress"/>
+		<person_name>MatthewRobbins</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BillGunn">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DaSweetBloodOfJesus"/>
+		<person_name>BillGunn</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#VinnieLaRocksta">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DaSweetBloodOfJesus"/>
+		<person_name>VinnieLaRocksta</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PhilHartman">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PeeweesBigAdventure"/>
+		<person_name>PhilHartman</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PaulReubens">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PeeweesBigAdventure"/>
+		<person_name>PaulReubens</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MichaelVarhol">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PeeweesBigAdventure"/>
+		<person_name>MichaelVarhol</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TomStoppard">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EmpireOfTheSun"/>
+		<person_name>TomStoppard</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#J.G.Ballard">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EmpireOfTheSun"/>
+		<person_name>J.G.Ballard</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MennoMeyjes">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EmpireOfTheSun"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheColorPurple"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheLastCrusade"/>
+		<person_name>MennoMeyjes</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RudolphGrey">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdWood"/>
+		<person_name>RudolphGrey</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ScottAlexander">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdWood"/>
+		<person_name>ScottAlexander</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LarryKaraszewski">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdWood"/>
+		<person_name>LarryKaraszewski</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JohnLandis">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TwilightZoneTheMovie"/>
+		<person_name>JohnLandis</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GeorgeClaytonJohnson">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TwilightZoneTheMovie"/>
+		<person_name>GeorgeClaytonJohnson</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RichardMatheson">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TwilightZoneTheMovie"/>
+		<person_name>RichardMatheson</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AllisonAnders">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FourRooms"/>
+		<person_name>AllisonAnders</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AlexandreRockwell">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FourRooms"/>
+		<person_name>AlexandreRockwell</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertRodriguez">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FourRooms"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Grindhouse"/>
+		<person_name>RobertRodriguez</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KevinWillmott">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Chiraq"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Blackkklansman"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Da5Bloods"/>
+		<person_name>KevinWillmott</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Aristophanes">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Chiraq"/>
+		<person_name>Aristophanes</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RandallFrakes">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Xenogenesis"/>
+		<person_name>RandallFrakes</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RansomRiggs">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ForPeculiarChildren"/>
+		<person_name>RansomRiggs</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JaneGoldman">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ForPeculiarChildren"/>
+		<person_name>JaneGoldman</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MelissaMathison">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheBfg"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EtTheExtraterrestrial"/>
+		<person_name>MelissaMathison</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RoaldDahl">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheBfg"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CharlieAndTheChocolateFactory"/>
+		<person_name>RoaldDahl</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AliceWalker">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheColorPurple"/>
+		<person_name>AliceWalker</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PhilipK.Dick">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MinorityReport"/>
+		<person_name>PhilipK.Dick</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ScottFrank">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MinorityReport"/>
+		<person_name>ScottFrank</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonCohen">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MinorityReport"/>
+		<person_name>JonCohen</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MichaelGenet">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SheHateMe"/>
+		<person_name>MichaelGenet</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JoeGrant">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Dumbo"/>
+		<person_name>JoeGrant</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DickHuemer">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Dumbo"/>
+		<person_name>DickHuemer</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OttoEnglander">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Dumbo"/>
+		<person_name>OttoEnglander</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LizHannah">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThePost"/>
+		<person_name>LizHannah</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JoshSinger">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThePost"/>
+		<person_name>JoshSinger</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CedrictheEntertainer">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheOriginalKingsOfComedy"/>
+		<person_name>CedrictheEntertainer</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SteveHarvey">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheOriginalKingsOfComedy"/>
+		<person_name>SteveHarvey</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#D.L.Hughley">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheOriginalKingsOfComedy"/>
+		<person_name>D.L.Hughley</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThomasKeneally">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SchindlersList"/>
+		<person_name>ThomasKeneally</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#StevenZaillian">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SchindlersList"/>
+		<person_name>StevenZaillian</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertZemeckis">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#1941"/>
+		<person_name>RobertZemeckis</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BobGale">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#1941"/>
+		<person_name>BobGale</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JohnMilius">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#1941"/>
+		<person_name>JohnMilius</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeffNathanson">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CatchMeIfYouCan"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheKingdomOfTheCrystalSkull"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheTerminal"/>
+		<person_name>JeffNathanson</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FrankAbagnaleJr.">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CatchMeIfYouCan"/>
+		<person_name>FrankAbagnaleJr.</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#StanRedding">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CatchMeIfYouCan"/>
+		<person_name>StanRedding</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LeeHall">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WarHorse"/>
+		<person_name>LeeHall</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RichardCurtis">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WarHorse"/>
+		<person_name>RichardCurtis</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MichaelMorpurgo">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WarHorse"/>
+		<person_name>MichaelMorpurgo</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CharlieWachtel">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Blackkklansman"/>
+		<person_name>CharlieWachtel</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DavidRabinowitz">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Blackkklansman"/>
+		<person_name>DavidRabinowitz</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GaronTsuchiya">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Oldboy"/>
+		<person_name>GaronTsuchiya</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#NobuakiMinegishi">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Oldboy"/>
+		<person_name>NobuakiMinegishi</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParkChan-Wook">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Oldboy"/>
+		<person_name>ParkChan-Wook</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CarlosGrangel">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CorpseBride"/>
+		<person_name>CarlosGrangel</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JohnAugust">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CorpseBride"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CharlieAndTheChocolateFactory"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Frankenweenie"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BigFish"/>
+		<person_name>JohnAugust</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CraigHamann">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyBestFriendsBirthday"/>
+		<person_name>CraigHamann</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobZombie">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Grindhouse"/>
+		<person_name>RobZombie</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RogerGuenveurSmith(play)">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AHueyPNewtonStory"/>
+		<person_name>RogerGuenveurSmith(play)</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JerryBelson">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Always"/>
+		<person_name>JerryBelson</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DaltonTrumbo">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Always"/>
+		<person_name>DaltonTrumbo</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FrederickHazlittBrennan">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Always"/>
+		<person_name>FrederickHazlittBrennan</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MichaelCrichton">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLostWorldJurassicPark"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JurassicPark"/>
+		<person_name>MichaelCrichton</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DavidKoepp">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLostWorldJurassicPark"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheKingdomOfTheCrystalSkull"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JurassicPark"/>
+		<person_name>DavidKoepp</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ZakPenn">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ReadyPlayerOne"/>
+		<person_name>ZakPenn</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ErnestCline">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ReadyPlayerOne"/>
+		<person_name>ErnestCline</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MattCharman">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BridgeOfSpies"/>
+		<person_name>MattCharman</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EthanCoen">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BridgeOfSpies"/>
+		<person_name>EthanCoen</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JoelCoen">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BridgeOfSpies"/>
+		<person_name>JoelCoen</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#VictorColicchio">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SummerOfSam"/>
+		<person_name>VictorColicchio</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MichaelImperioli">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SummerOfSam"/>
+		<person_name>MichaelImperioli</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GaleAnneHurd">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheTerminator"/>
+		<person_name>GaleAnneHurd</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#VladimirSorokin">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#4"/>
+		<person_name>VladimirSorokin</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RickJaffa">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Avatar3"/>
+		<person_name>RickJaffa</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmandaSilver">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Avatar3"/>
+		<person_name>AmandaSilver</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RichardMatheson(screenplay)">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Duel"/>
+		<person_name>RichardMatheson(screenplay)</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RichardMatheson(story)">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Duel"/>
+		<person_name>RichardMatheson(story)</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WillardHuyck">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheTempleOfDoom"/>
+		<person_name>WillardHuyck</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GloriaKatz">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheTempleOfDoom"/>
+		<person_name>GloriaKatz</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GeorgeLucas">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheTempleOfDoom"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheKingdomOfTheCrystalSkull"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheLastCrusade"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RaidersOfTheLostArk"/>
+		<person_name>GeorgeLucas</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PeterBenchley">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Jaws"/>
+		<person_name>PeterBenchley</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CarlGottlieb">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Jaws"/>
+		<person_name>CarlGottlieb</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JamesMcBride">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MiracleAtStAnna"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RedHookSummer"/>
+		<person_name>JamesMcBride</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DavidGiler">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Aliens"/>
+		<person_name>DavidGiler</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WalterHill">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Aliens"/>
+		<person_name>WalterHill</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PierreBoulle">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PlanetOfTheApes"/>
+		<person_name>PierreBoulle</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WilliamBroylesJr.">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PlanetOfTheApes"/>
+		<person_name>WilliamBroylesJr.</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LawrenceKonner">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PlanetOfTheApes"/>
+		<person_name>LawrenceKonner</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RogerAvary">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PulpFiction"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ReservoirDogs"/>
+		<person_name>RogerAvary</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LeonardRipps">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Frankenweenie"/>
+		<person_name>LeonardRipps</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Suzan-LoriParks">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Girl6"/>
+		<person_name>Suzan-LoriParks</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RussellGewirtz">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#InsideMan"/>
+		<person_name>RussellGewirtz</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RichardPrice">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Clockers"/>
+		<person_name>RichardPrice</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BrianAldiss">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AiArtificialIntelligence"/>
+		<person_name>BrianAldiss</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IanWatson">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AiArtificialIntelligence"/>
+		<person_name>IanWatson</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertRodat">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SavingPrivateRyan"/>
+		<person_name>RobertRodat</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RogerGuenveurSmith">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RodneyKing"/>
+		<person_name>RogerGuenveurSmith</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BobKane">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Batman"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BatmanReturns"/>
+		<person_name>BobKane</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SamHamm">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Batman"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BatmanReturns"/>
+		<person_name>SamHamm</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WarrenSkaaren">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Batman"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Beetlejuice"/>
+		<person_name>WarrenSkaaren</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CharlesH.Eglee">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PiranhaIiTheSpawning"/>
+		<person_name>CharlesH.Eglee</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OvidioG.Assonitis">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PiranhaIiTheSpawning"/>
+		<person_name>OvidioG.Assonitis</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AndrewNiccol">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheTerminal"/>
+		<person_name>AndrewNiccol</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SachaGervasi">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheTerminal"/>
+		<person_name>SachaGervasi</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JackDavies">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#25"/>
+		<person_name>JackDavies</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KenAnnakin">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#25"/>
+		<person_name>KenAnnakin</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Clamp">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BloodcTheLastDark"/>
+		<person_name>Clamp</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KenjiKamiyama">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BloodcTheLastDark"/>
+		<person_name>KenjiKamiyama</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#NanaseÔkawa">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BloodcTheLastDark"/>
+		<person_name>NanaseÔkawa</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#J.M.Barrie">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Hook"/>
+		<person_name>J.M.Barrie</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JamesV.Hart">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Hook"/>
+		<person_name>JamesV.Hart</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#NickCastle">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Hook"/>
+		<person_name>NickCastle</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeffreyBoam">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheLastCrusade"/>
+		<person_name>JeffreyBoam</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ElmoreLeonard">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JackieBrown"/>
+		<person_name>ElmoreLeonard</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MichaelMcDowell">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Beetlejuice"/>
+		<person_name>MichaelMcDowell</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LarryWilson">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Beetlejuice"/>
+		<person_name>LarryWilson</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AlexHaley">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MalcolmX"/>
+		<person_name>AlexHaley</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MalcolmX">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MalcolmX"/>
+		<person_name>MalcolmX</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ArnoldPerl">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MalcolmX"/>
+		<person_name>ArnoldPerl</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ZoraNealeHurston">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ShesGottaHaveIt"/>
+		<person_name>ZoraNealeHurston</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#H.G.Wells">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheIslandOfDoctorAgor"/>
+		<person_name>H.G.Wells</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JoshFriedman">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Avatar2"/>
+		<person_name>JoshFriedman</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DanielWaters">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BatmanReturns"/>
+		<person_name>DanielWaters</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ReggieRockBythewood">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GetOnTheBus"/>
+		<person_name>ReggieRockBythewood</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LawrenceKasdan">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RaidersOfTheLostArk"/>
+		<person_name>LawrenceKasdan</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PhilipKaufman">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RaidersOfTheLostArk"/>
+		<person_name>PhilipKaufman</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LenBrown">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MarsAttacks"/>
+		<person_name>LenBrown</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WoodyGelman">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MarsAttacks"/>
+		<person_name>WoodyGelman</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WallyWood">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MarsAttacks"/>
+		<person_name>WallyWood</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TonyKushner">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Munich"/>
+		<person_name>TonyKushner</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EricRoth">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Munich"/>
+		<person_name>EricRoth</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GeorgeJonas">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Munich"/>
+		<person_name>GeorgeJonas</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JoieLee">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Crooklyn"/>
+		<person_name>JoieLee</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CinquéLee">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Crooklyn"/>
+		<person_name>CinquéLee</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DannyBilson">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Da5Bloods"/>
+		<person_name>DannyBilson</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PaulDeMeo">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Da5Bloods"/>
+		<person_name>PaulDeMeo</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WilliamNicholson">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Firelight"/>
+		<person_name>WilliamNicholson</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DanielWallace">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BigFish"/>
+		<person_name>DanielWallace</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ClaudeZidi">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TrueLies"/>
+		<person_name>ClaudeZidi</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SimonMichaël">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TrueLies"/>
+		<person_name>SimonMichaël</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DidierKaminka">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TrueLies"/>
+		<person_name>DidierKaminka</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ErnestLehman">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WestSideStory"/>
+		<person_name>ErnestLehman</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ArthurLaurents">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WestSideStory"/>
+		<person_name>ArthurLaurents</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeromeRobbins">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WestSideStory"/>
+		<person_name>JeromeRobbins</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AlexTse">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SuckerFreeCity"/>
+		<person_name>AlexTse</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CarolineThompson">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdwardScissorhands"/>
+		<person_name>CarolineThompson</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LindaMcCormick">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Freak"/>
+		<person_name>LindaMcCormick</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TylerTharpe">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Freak"/>
+		<person_name>TylerTharpe</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertClouse">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SomethingEvil"/>
+		<person_name>RobertClouse</person_name>
+		<role>writer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BenaiferKohli">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeetJayengeHum"/>
+		<person_name>Benaifer_Kohli</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LauraWaters">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTonga"/>
+		<person_name>LauraWaters</person_name>
+		<role>producer</role>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmyPoehler">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreation"/>
+		<person_name>AmyPoehler</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PaulBarron">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoad"/>
+		<person_name>PaulBarron</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#VictorDalChele">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriors"/>
+		<person_name>VictorDalChele</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GeorgeSinger">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheNewScoobyAndScrappydooShowTheNewScoobydooMysteries"/>
+		<person_name>GeorgeSinger</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BertGranet">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFile"/>
+		<person_name>Bert_Granet</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JohnBinder">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertUrich"/>
+		<person_name>JohnBinder</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ArnoldMargolin">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShow"/>
+		<person_name>Arnold_Margolin</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BillPhillips">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoad"/>
+		<person_name>BillPhillips</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SiljeHoplandEik">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossing"/>
+		<person_name>SiljeHoplandEik</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LisaNishimura">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDelicious"/>
+		<person_name>Lisa_Nishimura</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DrakeBell">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpiderman"/>
+		<person_name>DrakeBell</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KiyoshiSuzuki">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFuture"/>
+		<person_name>Kiyoshi_Suzuki</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TerryMorse">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCover"/>
+		<person_name>TerryMorse</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Jr.">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCover"/>
+		<person_name>Jr.</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#StewartStrunk">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonio"/>
+		<person_name>StewartStrunk</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ShelPiercy">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouver"/>
+		<person_name>ShelPiercy</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GlennRawson">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheJosephSmithPapers"/>
+		<person_name>GlennRawson</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ZaneHolmes">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMoeShow"/>
+		<person_name>ZaneHolmes</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RaviDubey">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Udaariyaan"/>
+		<person_name>Ravi_Dubey</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ʿimādil-ʿnizi">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UmHārūn"/>
+		<person_name>ʿimādil-ʿnizi</person_name>
+		<role>producer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AniruddhPathak">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeetJayengeHum"/>
+		<person_name>Aniruddh_Pathak</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ZakPenn">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrix"/>
+		<person_name>Zak_Penn</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SaraloMacGregor">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoad"/>
+		<person_name>SaraloMacGregor</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JosephBarbera">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheNewScoobyAndScrappydooShowTheNewScoobydooMysteries"/>
+		<person_name>Joseph_Barbera</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DesiArnaz">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFile"/>
+		<person_name>Desi_Arnaz</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MichaelOgiens">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertUrich"/>
+		<person_name>MichaelOgiens</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MontyHall">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShow"/>
+		<person_name>Monty_Hall</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JerryMcNeely">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoad"/>
+		<person_name>JerryMcNeely</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BenCotner">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDelicious"/>
+		<person_name>BenCotner</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JephLoeb">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpiderman"/>
+		<person_name>Jeph_Loeb</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#NoboruTsuburaya">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFuture"/>
+		<person_name>NoboruTsuburaya</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JohnSacretYoung">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCover"/>
+		<person_name>John_Sacret_Young</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#StellaBulochnikovStolper">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonio"/>
+		<person_name>StellaBulochnikovStolper</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MariaArmstrong">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouver"/>
+		<person_name>MariaArmstrong</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CatherineFogarty">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouver"/>
+		<person_name>CatherineFogarty</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LarryH.Miller">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheJosephSmithPapers"/>
+		<person_name>Larry_H._Miller</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeremyDillon">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMoeShow"/>
+		<person_name>JeremyDillon</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AliHasan">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Udaariyaan"/>
+		<person_name>AliHasan</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Našʾatal-Mulḥim">
+		<rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Staff"/>
+		<collaborates rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UmHārūn"/>
+		<person_name>Našʾatal-Mulḥim</person_name>
+		<role>executiveProducer</role>
+	</owl:NamedIndividual>
+
