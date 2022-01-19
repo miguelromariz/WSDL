@@ -4958,7 +4958,6 @@
             <total_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105.0</total_duration>
             <awards> 0 </awards> 
 		<hasStaff rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SpikeLee"/>
-		<hasCast rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#N/A"/>
 	</owl:NamedIndividual>
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmericanUtopiaScore">
