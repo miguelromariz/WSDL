@@ -8,7 +8,7 @@ from getScores import getScoresAPIs
 def createMoviesJson():
     movies = {}
     count = 0
-    file = open("moviesFiltered.tsv", encoding="utf8")
+    file = open("tsvs\moviesFiltered.tsv", encoding="utf8")
     data = csv.reader(file, delimiter="\t")
     firstline = True
 
@@ -51,7 +51,9 @@ def createMoviesJson():
             #count += 1
             #print("LINHA:" + str(count))
 
-            movies[movieTitle] = [movieIRI, movieDirector, movieAbstract, movieCountry, movieLanguage, movieReleaseDate, movieRunTime,movieGenre, movieIMDBscore, movieMetacriticScore, movieRottenTomatoesScore, writers, cast, awards, type]
+            comments = getComments(movieTitle)
+
+            movies[movieTitle] = [movieIRI, movieDirector, movieAbstract, movieCountry, movieLanguage, movieReleaseDate, movieRunTime,movieGenre, movieIMDBscore, movieMetacriticScore, movieRottenTomatoesScore, writers, cast, awards, comments, type]
 
         firstline = False
     
@@ -174,9 +176,9 @@ def main():
     #filterSeries()
 
     #print("------------MOVIES-------------")
-    #createMoviesJson()
+    createMoviesJson()
     #print("------------SERIES-------------s")
-    createSeriesJson()    
+    #createSeriesJson()    
     
     
 
