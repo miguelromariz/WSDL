@@ -1,0 +1,149 @@
+prefix WSDL: <http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#>
+
+Filtar por Series
+
+SELECT DISTINCT ?resource ?duration 
+WHERE {
+  ?resource a owl:NamedIndividual.
+  ?resource rdf:type wsdl:TvShow.
+}
+
+
+Filtrar por Filmes
+
+SELECT DISTINCT ?resource ?duration 
+WHERE {
+  ?resource a owl:NamedIndividual.
+  ?resource rdf:type wsdl:Resource.
+}
+
+
+Procurar Filme/Serie especifica
+
+SELECT DISTINCT ?resource ?duration ?synopsis
+WHERE {
+  ?resource a owl:NamedIndividual.
+  ?resource rdf:type wsdl:Resource.
+  ?resource wsdl:synopsis ?synopsis.
+  ?resource wsdl:total_duration ?duration.
+  ?resource wsdl:title "Ed Wood".
+}
+
+
+Filtrar por language
+
+SELECT DISTINCT ?resource ?language
+WHERE {
+  ?resource a owl:NamedIndividual.
+  Optional{?resource rdf:type wsdl:Resource.}
+  Optional{?resource rdf:type wsdl:TvShow.}
+  ?resource wsdl:language ?language.
+  Filter(?language = "English")
+}
+
+
+Filtrar por string específica
+
+SELECT ?resource ?genre 
+WHERE {
+  ?resource a owl:NamedIndividual.
+  ?resource rdf:type wsdl:Resource.
+  ?resource wsdl:genre ?genre
+  FILTER regex(str(?genre), "Drama").
+}
+
+Listar por role
+SELECT Distinct ?director
+WHERE {
+  ?director a owl:NamedIndividual.
+  ?director rdf:type wsdl:Staff.
+  ?director wsdl:role "director".
+}
+
+
+Listar filmes de um ator
+SELECT Distinct ?actor ?name ?movieList
+WHERE {
+  ?actor a owl:NamedIndividual.
+  ?actor rdf:type wsdl:Cast.
+  ?actor wsdl:person_name "JohnnyDepp".
+  ?actor wsdl:participates ?movieList.
+}
+
+Mostrar Scores de um Filme
+SELECT Distinct ?resource ?score ?imdb_score ?metacritic_score ?rottentotomatoes_score
+WHERE {
+  ?resource a owl:NamedIndividual.
+  ?resource rdf:type wsdl:Resource.
+  ?resource wsdl:title "Corpse Bride".
+  ?resource wsdl:hasScore ?score.
+  ?score wsdl:imdb_score ?imdb_score.
+  ?score wsdl:metacritic_score ?metacritic_score.
+  ?score wsdl:rottentotomatoes_score ?rottentotomatoes_score.
+}
+
+
+Mostrar Comentarios de um filme/Serie
+SELECT Distinct ?resource ?comment ?comment_title ?comment_text
+WHERE {
+  ?resource a owl:NamedIndividual.
+  ?resource rdf:type wsdl:Resource.
+  ?resource wsdl:title "Corpse Bride".
+  ?resource wsdl:hasComments ?comment.
+  ?comment wsdl:comment_title ?comment_title.
+  ?comment wsdl:comment_text ?comment_text.
+}
+
+Mostrar awards de um filme 
+SELECT Distinct ?resource ?awards
+WHERE {
+  ?resource a owl:NamedIndividual.
+  ?resource rdf:type wsdl:Resource.
+  ?resource wsdl:title "Corpse Bride".
+  ?resource wsdl:awards ?awards.
+}
+
+Mostrar IRI do filme/Serie
+SELECT Distinct ?resource ?iri
+WHERE {
+  ?resource a owl:NamedIndividual.
+  ?resource rdf:type wsdl:Resource.
+  ?resource wsdl:title "Corpse Bride".
+  ?resource wsdl:resource_iri ?iri.
+}
+
+Mostar Cast de um filme
+SELECT Distinct ?resource ?cast
+WHERE {
+  ?resource a owl:NamedIndividual.
+  ?resource rdf:type wsdl:Resource.
+  ?resource wsdl:title "Corpse Bride".
+  ?resource wsdl:hasCast ?cast.
+}
+
+Mostar Staff de um filme
+SELECT Distinct ?resource ?cast ?role
+WHERE {
+  ?resource a owl:NamedIndividual.
+  ?resource rdf:type wsdl:TvShow.
+  ?resource wsdl:title "Parks and Recreation".
+  ?resource wsdl:hasStaff ?cast.
+  ?cast wsdl:role ?role.
+}
+
+Mostrar o nosso score de um filme
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT Distinct ?resource ?score ((xsd:float(?imdb_score) + xsd:float(?metacritic_score) + xsd:float(?rottentotomatoes_score))/3 as ?ourScore)
+WHERE {
+  ?resource a owl:NamedIndividual.
+  ?resource rdf:type wsdl:Resource.
+  ?resource wsdl:title "Corpse Bride".
+  ?resource wsdl:hasScore ?score.
+  ?score wsdl:imdb_score ?imdb_score.
+  ?score wsdl:metacritic_score ?metacritic_score.
+  ?score wsdl:rottentotomatoes_score ?rottentotomatoes_score.
+}
+
+
+
