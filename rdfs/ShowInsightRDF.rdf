@@ -396,7 +396,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
 -->
 
-<!--TVSHOWS-->
+    <!--TVSHOWS-->
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeetJayengeHum">
                 <resource_iri> http://dbpedia.org/resource/Jeet_Jayenge_Hum </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
@@ -456,7 +456,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTongaScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTonga"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.1</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -533,7 +533,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrixScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrix"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.9</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -609,7 +609,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreationScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreation"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.6</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -685,7 +685,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoadScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoad"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.0</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -760,7 +760,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriorsScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriors"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.0</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -895,7 +895,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFileScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFile"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.9</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -929,7 +929,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTeddyRuxpinScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTeddyRuxpin"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.4</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1029,7 +1029,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShowScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShow"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.2</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1062,8 +1062,8 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoadScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoad"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.3</imdb_score>
-                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35/100</metacritic_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53.0</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
 
@@ -1095,7 +1095,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLionKingsTimonPumbaaScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLionKingsTimonPumbaa"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.1</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1170,7 +1170,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercoverScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercover"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.8</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1245,7 +1245,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossingScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossing"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.2</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1321,7 +1321,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDeliciousScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDelicious"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.8</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1399,7 +1399,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpidermanScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpiderman"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.2</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1471,7 +1471,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFutureScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFuture"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.4</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1523,7 +1523,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCoverScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCover"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.9</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1574,7 +1574,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnikittyScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Unikitty"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.5</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1646,7 +1646,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonioScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonio"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1698,7 +1698,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouverScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouver"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.7</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1832,7 +1832,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UdaariyaanScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Udaariyaan"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.1</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1905,8 +1905,10 @@
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
 
-       <!--MOVIES-->
-	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAbyss">
+
+
+    <!--MOVIES-->
+		<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAbyss">
             <resource_iri> http://dbpedia.org/resource/The_Abyss </resource_iri>
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Resource"/>
             <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAbyssScore"/>
@@ -1932,9 +1934,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAbyssScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAbyss"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.5</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">89%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">89</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAbyssComment1">
@@ -1999,9 +2001,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmistadScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Amistad"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.3</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">77%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">77</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmistadComment1">
@@ -2066,9 +2068,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Terminator2JudgmentDayScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Terminator2JudgmentDay"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.5</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">93%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">93</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Terminator2JudgmentDayComment1">
@@ -2135,7 +2137,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheDemonBarberOfFleetStreetScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheDemonBarberOfFleetStreet"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.0</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -2204,9 +2206,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTintinScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTintin"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.3</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTintinComment1">
@@ -2272,9 +2274,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheSugarlandExpressScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheSugarlandExpress"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheSugarlandExpressComment1">
@@ -2364,9 +2366,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DaSweetBloodOfJesusScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DaSweetBloodOfJesus"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.3</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DaSweetBloodOfJesusComment1">
@@ -2433,9 +2435,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PeeweesBigAdventureScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PeeweesBigAdventure"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.0</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">87%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">87</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PeeweesBigAdventureComment1">
@@ -2495,7 +2497,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JoesBedstuyBarbershopWeCutHeadsScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JoesBedstuyBarbershopWeCutHeads"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.4</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -2556,9 +2558,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JimBrownAllamericanScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JimBrownAllamerican"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.6</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JimBrownAllamericanComment1">
@@ -2611,9 +2613,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EmpireOfTheSunScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EmpireOfTheSun"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.7</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EmpireOfTheSunComment1">
@@ -2741,7 +2743,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CloseEncountersScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CloseEncounters"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.1</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -2810,9 +2812,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdWoodScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdWood"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdWoodComment1">
@@ -2879,9 +2881,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TwilightZoneTheMovieScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TwilightZoneTheMovie"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.5</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">58%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">58</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TwilightZoneTheMovieComment1">
@@ -2948,9 +2950,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FourRoomsScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FourRooms"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.8</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14%</rottentotomatoes_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FourRoomsComment1">
@@ -3016,9 +3018,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ChiraqScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Chiraq"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">82%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">82</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ChiraqComment1">
@@ -3082,7 +3084,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#XenogenesisScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Xenogenesis"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.4</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -3150,9 +3152,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ForPeculiarChildrenScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ForPeculiarChildren"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.7</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">64%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">64</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ForPeculiarChildrenComment1">
@@ -3218,9 +3220,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheBfgScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheBfg"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.4</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheBfgComment1">
@@ -3286,9 +3288,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheColorPurpleScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheColorPurple"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">81%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">81</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheColorPurpleComment1">
@@ -3355,9 +3357,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MinorityReportScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MinorityReport"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.6</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MinorityReportComment1">
@@ -3422,9 +3424,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SheHateMeScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SheHateMe"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.3</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SheHateMeComment1">
@@ -3491,9 +3493,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DumboScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Dumbo"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.2</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">98%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">98</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DumboComment1">
@@ -3583,9 +3585,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThePostScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThePost"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.2</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">88%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">88</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThePostComment1">
@@ -3652,9 +3654,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheOriginalKingsOfComedyScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheOriginalKingsOfComedy"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">83%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">83</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheOriginalKingsOfComedyComment1">
@@ -3720,9 +3722,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SchindlersListScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SchindlersList"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.9</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">98%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">98</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SchindlersListComment1">
@@ -3789,9 +3791,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#1941Score">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#1941"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#1941Comment1">
@@ -3855,9 +3857,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BamboozledScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Bamboozled"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.6</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BamboozledComment1">
@@ -3924,9 +3926,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CatchMeIfYouCanScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CatchMeIfYouCan"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.1</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CatchMeIfYouCanComment1">
@@ -4017,9 +4019,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WarHorseScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WarHorse"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.2</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WarHorseComment1">
@@ -4086,9 +4088,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BlackkklansmanScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Blackkklansman"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.5</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BlackkklansmanComment1">
@@ -4155,9 +4157,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OldboyScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Oldboy"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.4</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">81%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">81</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OldboyComment1">
@@ -4223,9 +4225,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CorpseBrideScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CorpseBride"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.3</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">84%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">84</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CorpseBrideComment1">
@@ -4290,7 +4292,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyBestFriendsBirthdayScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyBestFriendsBirthday"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.6</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -4358,9 +4360,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CharlieAndTheChocolateFactoryScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CharlieAndTheChocolateFactory"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.6</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">83%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">83</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CharlieAndTheChocolateFactoryComment1">
@@ -4427,9 +4429,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GrindhouseScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Grindhouse"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.5</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">84%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">84</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GrindhouseComment1">
@@ -4494,9 +4496,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AHueyPNewtonStoryScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AHueyPNewtonStory"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.0</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AHueyPNewtonStoryComment1">
@@ -4563,9 +4565,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AlwaysScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Always"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.4</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">64%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">64</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AlwaysComment1">
@@ -4631,9 +4633,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLostWorldJurassicParkScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLostWorldJurassicPark"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.6</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLostWorldJurassicParkComment1">
@@ -4699,9 +4701,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ReadyPlayerOneScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ReadyPlayerOne"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.4</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">72%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">72</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ReadyPlayerOneComment1">
@@ -4768,9 +4770,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BridgeOfSpiesScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BridgeOfSpies"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.6</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BridgeOfSpiesComment1">
@@ -4836,8 +4838,8 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SummerOfSamScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SummerOfSam"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.7</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67/100</metacritic_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
@@ -4904,9 +4906,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheTerminatorScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheTerminator"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.0</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheTerminatorComment1">
@@ -4971,8 +4973,8 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#4Score">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#4"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.6</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72/100</metacritic_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
@@ -5068,9 +5070,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DuelScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Duel"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.6</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">88%</rottentotomatoes_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">88</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DuelComment1">
@@ -5137,9 +5139,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheTempleOfDoomScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheTempleOfDoom"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.5</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">84%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">84</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheTempleOfDoomComment1">
@@ -5205,9 +5207,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JawsScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Jaws"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.0</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">98%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">98</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JawsComment1">
@@ -5295,9 +5297,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#InglouriousBasterdsScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#InglouriousBasterds"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.3</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">89%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">89</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#InglouriousBasterdsComment1">
@@ -5362,9 +5364,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MiracleAtStAnnaScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MiracleAtStAnna"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.1</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MiracleAtStAnnaComment1">
@@ -5454,9 +5456,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AliensScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Aliens"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.3</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">97%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">97</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AliensComment1">
@@ -5523,9 +5525,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PlanetOfTheApesScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PlanetOfTheApes"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.7</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PlanetOfTheApesComment1">
@@ -5590,9 +5592,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PulpFictionScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PulpFiction"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.9</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PulpFictionComment1">
@@ -5659,9 +5661,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheKingdomOfTheCrystalSkullScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheKingdomOfTheCrystalSkull"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.1</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">78%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">78</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheKingdomOfTheCrystalSkullComment1">
@@ -5723,7 +5725,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#VincentScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Vincent"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.3</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -5814,9 +5816,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EtTheExtraterrestrialScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EtTheExtraterrestrial"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EtTheExtraterrestrialComment1">
@@ -5882,9 +5884,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FrankenweenieScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Frankenweenie"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.9</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">87%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">87</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FrankenweenieComment1">
@@ -5949,9 +5951,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Girl6Score">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Girl6"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.2</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Girl6Comment1">
@@ -6016,9 +6018,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#InsideManScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#InsideMan"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.6</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">86%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">86</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#InsideManComment1">
@@ -6083,7 +6085,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KobeDoinWorkScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KobeDoinWork"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.5</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -6149,9 +6151,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheHatefulEightScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheHatefulEight"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheHatefulEightComment1">
@@ -6216,9 +6218,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ClockersScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Clockers"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.9</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">72%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">72</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ClockersComment1">
@@ -6283,7 +6285,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KillBillVolume2Score">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#KillBillVolume2"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.7</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -6349,9 +6351,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MoBetterBluesScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MoBetterBlues"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.6</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">71%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">71</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MoBetterBluesComment1">
@@ -6415,9 +6417,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AvatarScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Avatar"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">81%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">81</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AvatarComment1">
@@ -6476,7 +6478,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#StalkOfTheCeleryMonsterScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#StalkOfTheCeleryMonster"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.9</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -6521,9 +6523,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DeathProofScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DeathProof"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.0</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">65%</rottentotomatoes_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">65</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DeathProofComment1">
@@ -6589,9 +6591,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AiArtificialIntelligenceScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AiArtificialIntelligence"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.2</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AiArtificialIntelligenceComment1">
@@ -6680,9 +6682,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SavingPrivateRyanScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SavingPrivateRyan"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.6</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">93%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">93</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SavingPrivateRyanComment1">
@@ -6747,9 +6749,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ReservoirDogsScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ReservoirDogs"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.3</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ReservoirDogsComment1">
@@ -6813,7 +6815,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AmblinScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Amblin"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.3</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -6896,9 +6898,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RodneyKingScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RodneyKing"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.7</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Batman">
@@ -6925,9 +6927,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BatmanScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Batman"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.5</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">71%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">71</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PiranhaIiTheSpawning">
@@ -6958,9 +6960,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PiranhaIiTheSpawningScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PiranhaIiTheSpawning"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3.7</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#PiranhaIiTheSpawningComment1">
@@ -7027,9 +7029,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheTerminalScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheTerminal"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.4</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">61%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">61</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheTerminalComment1">
@@ -7095,9 +7097,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#25Score">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#25"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.0</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80%</rottentotomatoes_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#25Comment1">
@@ -7164,7 +7166,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BloodcTheLastDarkScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BloodcTheLastDark"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.1</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -7233,9 +7235,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#HookScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Hook"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#HookComment1">
@@ -7302,9 +7304,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheLastCrusadeScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheLastCrusade"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.2</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">88%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">88</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#IndianaJonesAndTheLastCrusadeComment1">
@@ -7369,9 +7371,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JackieBrownScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JackieBrown"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.5</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">87%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">87</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JackieBrownComment1">
@@ -7435,9 +7437,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TitanicScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Titanic"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">89%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">89</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TitanicComment1">
@@ -7501,9 +7503,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SchoolDazeScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SchoolDaze"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.0</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">56%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">56</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SchoolDazeComment1">
@@ -7567,9 +7569,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WhenTheLeveesBrokeScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WhenTheLeveesBroke"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.5</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">94%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">94</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WhenTheLeveesBrokeComment1">
@@ -7633,9 +7635,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Bad25Score">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Bad25"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.9</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Bad25Comment1">
@@ -7702,9 +7704,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BeetlejuiceScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Beetlejuice"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.5</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">85</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BeetlejuiceComment1">
@@ -7768,9 +7770,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MichaelJacksonsJourneyFromMotownToOffTheWallScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MichaelJacksonsJourneyFromMotownToOffTheWall"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.4</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">93%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">93</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MichaelJacksonsJourneyFromMotownToOffTheWallComment1">
@@ -7834,9 +7836,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DjangoUnchainedScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DjangoUnchained"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.4</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">86%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">86</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#DjangoUnchainedComment1">
@@ -7903,9 +7905,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MalcolmXScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MalcolmX"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.7</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">89%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">89</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MalcolmXComment1">
@@ -7970,9 +7972,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ShesGottaHaveItScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ShesGottaHaveIt"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">91%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">91</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ShesGottaHaveItComment1">
@@ -8100,9 +8102,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JungleFeverScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JungleFever"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.6</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JungleFeverComment1">
@@ -8168,9 +8170,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JurassicParkScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JurassicPark"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.1</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JurassicParkComment1">
@@ -8235,7 +8237,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ExpeditionBismarckScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ExpeditionBismarck"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.5</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -8296,7 +8298,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheIslandOfDoctorAgorScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheIslandOfDoctorAgor"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.0</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -8364,9 +8366,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BatmanReturnsScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BatmanReturns"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.0</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BatmanReturnsComment1">
@@ -8431,9 +8433,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GetOnTheBusScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GetOnTheBus"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">89%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">89</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GetOnTheBusComment1">
@@ -8500,9 +8502,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RaidersOfTheLostArkScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RaidersOfTheLostArk"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.4</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">95%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">95</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RaidersOfTheLostArkComment1">
@@ -8569,9 +8571,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MarsAttacksScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MarsAttacks"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.4</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">55%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">55</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MarsAttacksComment1">
@@ -8634,9 +8636,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MunichScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Munich"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.5</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">78%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">78</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MunichComment1">
@@ -8674,9 +8676,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CrooklynScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Crooklyn"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.0</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">77%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">77</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#CrooklynComment1">
@@ -8743,9 +8745,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Da5BloodsScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Da5Bloods"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.5</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">92</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Da5BloodsComment1">
@@ -8810,9 +8812,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FirelightScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Firelight"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.3</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50%</rottentotomatoes_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FirelightComment1">
@@ -8876,9 +8878,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#HeGotGameScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#HeGotGame"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.9</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">81%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">81</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#HeGotGameComment1">
@@ -8944,9 +8946,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BigFishScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BigFish"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.0</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">76%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">76</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#BigFishComment1">
@@ -9013,9 +9015,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TrueLiesScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TrueLies"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.2</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TrueLiesComment1">
@@ -9082,9 +9084,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WestSideStoryScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WestSideStory"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.5</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">93%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">93</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#WestSideStoryComment1">
@@ -9150,7 +9152,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SuckerFreeCityScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SuckerFreeCity"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.7</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -9217,9 +9219,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdwardScissorhandsScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdwardScissorhands"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.9</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#EdwardScissorhandsComment1">
@@ -9285,7 +9287,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#FreakScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Freak"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3.7</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -9353,7 +9355,7 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SomethingEvilScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SomethingEvil"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.4</imdb_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54.0</imdb_score>
             <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
             <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
 	</owl:NamedIndividual> 
@@ -9420,9 +9422,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RedHookSummerScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RedHookSummer"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.1</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">58%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">58</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RedHookSummerComment1">
@@ -9486,9 +9488,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AliensOfTheDeepScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AliensOfTheDeep"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.4</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">84%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">84</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AliensOfTheDeepComment1">
@@ -9552,9 +9554,9 @@
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GhostsOfTheAbyssScore">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GhostsOfTheAbyss"/>
-            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.8</imdb_score>
-            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67/100</metacritic_score>
-            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80%</rottentotomatoes_score>
+            <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68.0</imdb_score>
+            <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</metacritic_score>
+            <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80</rottentotomatoes_score>
 	</owl:NamedIndividual> 
 
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#GhostsOfTheAbyssComment1">
@@ -9591,6 +9593,8 @@
             <comment_text></comment_text>
             <comment_title>The ship is great, the rest isn't</comment_title>
 	</owl:NamedIndividual>
+        
+
 
     <!--CAST-->  
 	<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SanaSheikh">

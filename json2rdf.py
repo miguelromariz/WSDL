@@ -70,6 +70,14 @@ def createMovieRDF(movieTitle, movieIRI, movieDirector, movieAbstract, movieCoun
 
     rdf += '''\t</owl:NamedIndividual>\n'''
 
+    #Parse Scores
+    if(movieIMDBscore!="N/A"): movieIMDBscore = float(movieIMDBscore) * 10
+    if(movieMetacriticScore!="N/A"):
+        movieMetacriticScoreAux = movieMetacriticScore.split("/")
+        movieMetacriticScore = movieMetacriticScoreAux[0]
+    if(movieRottenTomatoesScore!="N/A"): movieRottenTomatoesScore = movieRottenTomatoesScore.split("%")[0]
+
+
     scoreRdf = f'''\t<owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}Score">
             <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
             <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}"/>
@@ -126,7 +134,7 @@ def createSeriesRDF(seriesTitle, seriesIRI, seriesAbstract, seriesLanguage, seri
     executiveProducersArray = seriesExecutiveProducer.split(', ')
     writersArray = seriesWriters.split(', ')
 
-    file1 = open("rdfs\series.owl","a",  encoding="utf8")
+    file1 = open("rdfs\series2.owl","a",  encoding="utf8")
     
 
     rdf =f'''    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}">
@@ -177,6 +185,13 @@ def createSeriesRDF(seriesTitle, seriesIRI, seriesAbstract, seriesLanguage, seri
 
     rdf += '''        </owl:NamedIndividual> \n'''
 
+
+    #Parse Scores
+    if(seriesIMDBscore!="N/A"): seriesIMDBscore = float(seriesIMDBscore) * 10
+    if(seriesMetacriticScore!="N/A"):
+        seriesMetacriticScoreAux = seriesMetacriticScore.split("/")
+        seriesMetacriticScore = (seriesMetacriticScoreAux[0])
+    if(seriesRottenTomatoesScore!="N/A"): seriesRottenTomatoesScore = seriesRottenTomatoesScore.split("%")[0]
 
     scoreRdf = f'''         <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#{titleNoSpaces}Score">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
@@ -474,9 +489,9 @@ def writeStaffRDF(lista):
 
 
 def main():
-    #t = prepare_movie_rdf(".\jsons\movies.json")
-    #f= prepare_series_rdf(".\jsons\series.json")
-    actors = prepareActorsList(".\jsons\series.json",".\jsons\movies.json")
+    t = prepare_movie_rdf(".\jsons\movies.json")
+    f= prepare_series_rdf(".\jsons\series.json")
+    '''actors = prepareActorsList(".\jsons\series.json",".\jsons\movies.json")
     directors = prepareDirectorList(".\jsons\movies.json")
     writers = prepareWritersList(".\jsons\series.json",".\jsons\movies.json")
     producers = prepareProducersList(".\jsons\series.json")
@@ -487,7 +502,7 @@ def main():
     list = mergeLists(list, execProducers)
     #print(list)
     writeActorsRDF(actors)
-    writeStaffRDF(list)
+    writeStaffRDF(list)'''
 
 if __name__ == '__main__':
     main()

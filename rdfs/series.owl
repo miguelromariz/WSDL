@@ -1,8 +1,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeetJayengeHum">
                 <resource_iri> http://dbpedia.org/resource/Jeet_Jayenge_Hum </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JeetJayengeHumScore"/>
                 <country>India</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.0</episode_duration>
@@ -32,8 +30,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTonga">
                 <resource_iri> http://dbpedia.org/resource/Jonah_from_Tonga </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTongaScore"/>
                 <country>Australia</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27.0</episode_duration>
@@ -61,7 +57,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTongaScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#JonahFromTonga"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.1</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -109,8 +105,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrix">
                 <resource_iri> http://dbpedia.org/resource/Ozzy_and_Drix </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrixScore"/>
                 <country>United_States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
@@ -140,7 +134,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrixScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#OzzyDrix"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.9</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -188,8 +182,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreation">
                 <resource_iri> http://dbpedia.org/resource/Parks_and_Recreation </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreationScore"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42.0</episode_duration>
@@ -218,7 +210,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreationScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ParksAndRecreation"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8.6</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -266,8 +258,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoad">
                 <resource_iri> http://dbpedia.org/resource/Serangoon_Road </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoadScore"/>
                 <country>Australia</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55.0</episode_duration>
@@ -296,7 +286,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoadScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SerangoonRoad"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.0</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -344,8 +334,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriors">
                 <resource_iri> http://dbpedia.org/resource/Skeleton_Warriors </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriorsScore"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23.0</episode_duration>
@@ -373,7 +361,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriorsScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#SkeletonWarriors"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.0</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -413,8 +401,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheNewScoobyAndScrappydooShowTheNewScoobydooMysteries">
                 <resource_iri> http://dbpedia.org/resource/The_New_Scooby_and_Scrappy-Doo_Show </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheNewScoobyAndScrappydooShowTheNewScoobydooMysteriesScore"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
@@ -488,8 +474,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFile">
                 <resource_iri> http://dbpedia.org/resource/The_Walter_Winchell_File </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFileScore"/>
                 <country>USA</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
@@ -512,7 +496,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFileScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheWalterWinchellFile"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.9</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -520,8 +504,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTeddyRuxpin">
                 <resource_iri> http://dbpedia.org/resource/The_Adventures_of_Teddy_Ruxpin </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTeddyRuxpinScore"/>
                 <country>Canada</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
@@ -548,7 +530,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTeddyRuxpinScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheAdventuresOfTeddyRuxpin"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.4</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -596,8 +578,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertUrich">
                 <resource_iri> http://dbpedia.org/resource/The_Lazarus_Man </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#RobertUrichScore"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43.0</episode_duration>
@@ -626,8 +606,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShow">
                 <resource_iri> http://dbpedia.org/resource/The_McLean_Stevenson_Show </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShowScore"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
@@ -652,7 +630,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShowScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMcleanStevensonShow"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.2</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -660,8 +638,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoad">
                 <resource_iri> http://dbpedia.org/resource/Three_for_the_Road_(TV_series) </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoadScore"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</episode_duration>
@@ -687,16 +663,14 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoadScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#ThreeForTheRoad"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.3</imdb_score>
-                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35/100</metacritic_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53.0</imdb_score>
+                <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLionKingsTimonPumbaa">
                 <resource_iri> http://dbpedia.org/resource/Timon_and_Pumbaa_(TV_series) </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLionKingsTimonPumbaaScore"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
@@ -722,7 +696,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLionKingsTimonPumbaaScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheLionKingsTimonPumbaa"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.1</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -770,8 +744,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercover">
                 <resource_iri> http://dbpedia.org/resource/UC:_Undercover </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercoverScore"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43.0</episode_duration>
@@ -799,7 +771,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercoverScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UcUndercover"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.8</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -847,8 +819,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossing">
                 <resource_iri> http://dbpedia.org/resource/Atlantic_Crossing_(TV_series) </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossingScore"/>
                 <country>Norway</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55.0</episode_duration>
@@ -876,7 +846,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossingScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#AtlanticCrossing"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.2</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -924,8 +894,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDelicious">
                 <resource_iri> http://dbpedia.org/resource/Ugly_Delicious </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDeliciousScore"/>
                 <country>U.S.</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55.0</episode_duration>
@@ -954,7 +922,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDeliciousScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UglyDelicious"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.8</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1002,8 +970,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpiderman">
                 <resource_iri> http://dbpedia.org/resource/Ultimate_Spider-Man_(TV_series) </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpidermanScore"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22.0</episode_duration>
@@ -1034,7 +1000,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpidermanScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltimateSpiderman"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.2</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1082,8 +1048,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFuture">
                 <resource_iri> http://dbpedia.org/resource/Ultraman:_Towards_the_Future </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFutureScore"/>
                 <country>Australia</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25.0</episode_duration>
@@ -1108,7 +1072,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFutureScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UltramanTowardsTheFuture"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.4</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1132,8 +1096,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCover">
                 <resource_iri> http://dbpedia.org/resource/Under_Cover_(1991_TV_series) </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCoverScore"/>
                 <country>United_States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45.0</episode_duration>
@@ -1162,7 +1124,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCoverScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnderCover"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.9</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1186,8 +1148,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Unikitty">
                 <resource_iri> http://dbpedia.org/resource/Unikitty! </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnikittyScore"/>
                 <country>Denmark</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11.0</episode_duration>
@@ -1215,7 +1175,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UnikittyScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Unikitty"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5.5</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1263,8 +1223,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonio">
                 <resource_iri> http://dbpedia.org/resource/My_Antonio </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonioScore"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</episode_duration>
@@ -1289,7 +1247,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonioScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#MyAntonio"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1313,8 +1271,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouver">
                 <resource_iri> http://dbpedia.org/resource/Love_It_or_List_It_Vancouver </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouverScore"/>
                 <country>Canada</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60.0</episode_duration>
@@ -1343,7 +1299,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouverScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#LoveItOrListItVancouver"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6.7</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1391,8 +1347,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheJosephSmithPapers">
                 <resource_iri> http://dbpedia.org/resource/The_Joseph_Smith_Papers_(TV_series) </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheJosephSmithPapersScore"/>
                 <country>United States</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30.0</episode_duration>
@@ -1421,8 +1375,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMoeShow">
                 <resource_iri> http://dbpedia.org/resource/The_Moe_Show </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TheMoeShowScore"/>
                 <country>New Zealand</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24.0</episode_duration>
@@ -1454,8 +1406,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Udaariyaan">
                 <resource_iri> http://dbpedia.org/resource/Udaariyaan </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UdaariyaanScore"/>
                 <country>India</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23.0</episode_duration>
@@ -1483,7 +1433,7 @@
          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UdaariyaanScore">
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Score"/>
                 <classifies rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Udaariyaan"/>
-                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.1</imdb_score>
+                <imdb_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41.0</imdb_score>
                 <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">N/A</metacritic_score>
                 <rottentotomatoes_score rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">N/A</rottentotomatoes_score>
             </owl:NamedIndividual>
@@ -1531,8 +1481,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UmHārūn">
                 <resource_iri> http://dbpedia.org/resource/Um_Harun </resource_iri>
                 <rdf:type rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#TvShow"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment1"/>
-                <hasComments rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#Comment2"/>
                 <hasScore rdf:resource="http://www.semanticweb.org/wsdl/ontologies/2021/11/showinsight-ontology-12#UmHārūnScore"/>
                 <country>Kuwait</country>
                 <episode_duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45.0</episode_duration>
